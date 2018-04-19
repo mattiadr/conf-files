@@ -517,5 +517,5 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 -- }}}
 
 -- Startup and autorun
-awful.spawn.with_shell(gears.filesystem.get_configuration_dir() .. "startup.sh")
+-- awful.spawn.with_shell(gears.filesystem.get_configuration_dir() .. "startup.sh")
 awful.spawn.with_shell(gears.filesystem.get_configuration_dir() .. "autorun.sh")
