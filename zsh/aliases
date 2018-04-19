@@ -1,4 +1,4 @@
-alias aliases="sudo subl /home/mattiadr/conf-files/zsh/zsh_aliases"
+alias aliases="sudo subl $ZSH_CONFIG/aliases"
 
 ###########
 # aliases #
@@ -22,7 +22,7 @@ alias rm="rm -rv --preserve-root"
 alias ln="ln -iv"
 alias less="less -R"
 alias py="python"
-alias cower="cower --color=auto --target /home/mattiadr/Downloads/ -v"
+alias cower="cower -v"
 alias top="htop"
 alias grep="grep --color=auto"
 alias egrep="egrep --color=auto"
@@ -32,10 +32,14 @@ alias dl-music="youtube-dl --extract-audio --audio-format mp3 --audio-quality 0 
 
 #sudo
 if [ $UID -ne 0 ]; then
-	alias chmod="sudo chmod -v"
-	alias chown="sudo chown -v"
+	alias shutdown="sudo shutdown"
+	alias poweroff="sudo poweroff"
+	alias halt="sudo halt"
+	alias reboot="sudo reboot"
 	alias mount="sudo mount"
 	alias umount="sudo umount"
+	alias chmod="sudo chmod -v"
+	alias chown="sudo chown -v"
 fi
 
 #############

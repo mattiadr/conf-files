@@ -1,4 +1,5 @@
-alias zshrc="sudo subl /home/mattiadr/conf-files/zsh/zshrc"
+ZSH_CONFIG="/home/mattiadr/conf-files/zsh"
+alias zshrc="sudo subl $ZSH_CONFIG/zshrc"
 
 ##########
 # config #
@@ -51,4 +52,4 @@ PS2="${c_primary}>>>${c_reset} "
 # aliases #
 ###########
 
-source /home/mattiadr/conf-files/zsh/zsh_aliases
+source $ZSH_CONFIG/aliases
