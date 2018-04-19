@@ -1,0 +1,54 @@
+alias zshrc="sudo subl /home/mattiadr/conf-files/zsh/zshrc"
+
+##########
+# config #
+##########
+
+# completion
+autoload -Uz compinit
+compinit
+zstyle ':completion:*' menu select
+
+# keybinds
+bindkey "^[[4h"   overwrite-mode                    # ins
+bindkey "^[[P"    delete-char                       # del
+bindkey "^[[H"    beginning-of-line                 # home
+bindkey "^[[4~"   end-of-line                       # end
+#bindkey "^[[5~"                                    # page up
+bindkey "^[[6~"   end-of-history                    # page down
+bindkey "^[[1;5A" history-beginning-search-backward # ctrl + up
+bindkey "^[[1;5B" history-beginning-search-forward  # ctrl + down
+bindkey "^[[1;5C" forward-word                      # ctrl + right
+bindkey "^[[1;5D" backward-word                     # ctrl + left
+
+#######
+# PS1 #
+#######
+
+local c_reset='%f%b'
+local c_pipe='%F{yellow}'
+local c_red='%B%F{red}'
+local c_blue='%B%F{blue}'
+local c_green='%B%F{green}'
+
+if [[ $UID -eq 0 ]]; then
+	local c_primary=$c_red
+else
+	local c_primary=$c_green
+fi
+
+local host_machine="${c_primary}%n@%m"
+local host_symbol="${c_primary}$"
+local current_dir="${c_reset}%~"
+local curr_time="${c_reset}%D %T"
+
+PS1="${c_pipe}╭─┤ ${host_machine} ${current_dir} ${c_pipe}├─╴
+${c_pipe}╰╴${host_symbol}${c_reset} "
+
+PS2="${c_primary}>>>${c_reset} "
+
+###########
+# aliases #
+###########
+
+source /home/mattiadr/conf-files/zsh/zsh_aliases

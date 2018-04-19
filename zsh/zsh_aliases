@@ -1,0 +1,76 @@
+alias aliases="sudo subl /home/mattiadr/conf-files/zsh/zsh_aliases"
+
+###########
+# aliases #
+###########
+
+alias sudo="sudo "
+#eval $(thefuck --alias)
+
+#commands
+alias ls="ls -p --color=auto --group-directories-first"
+alias lsa="ls -A"
+alias ll="ls -lh"
+alias lla="lsa -lh"
+alias ..="cd .."
+alias ...="cd ../.."
+alias -- -="cd -"
+alias mkdir="mkdir -pv"
+alias mv="mv -iv"
+alias cp="cp -irv"
+alias rm="rm -rv --preserve-root"
+alias ln="ln -iv"
+alias less="less -R"
+alias py="python"
+alias cower="cower --color=auto --target /home/mattiadr/Downloads/ -v"
+alias top="htop"
+alias grep="grep --color=auto"
+alias egrep="egrep --color=auto"
+alias fgrep="fgrep --color=auto"
+alias free="free -h"
+alias dl-music="youtube-dl --extract-audio --audio-format mp3 --audio-quality 0 --download-archive .archive 'https://www.youtube.com/playlist?list=PL6ZSqFV30ZuuNXV5xXcMU-_m8_z0_iyWb'"
+
+#sudo
+if [ $UID -ne 0 ]; then
+	alias chmod="sudo chmod -v"
+	alias chown="sudo chown -v"
+	alias mount="sudo mount"
+	alias umount="sudo umount"
+fi
+
+#############
+# functions #
+#############
+
+function mkcd {
+	mkdir "$*"
+	if [[ $? -eq 0 ]]; then
+		cd "$*"
+	fi
+}
+
+function gcco {
+	filename=$(basename $1)
+	filename="${filename%.*}"
+	/bin/gcc -o $filename $1
+}
+
+function pacexpl {
+	out=$(comm -23 <(pacman -Qeq | sort) <(pacman -Qgq base base-devel | cut -d ' ' -f 2 | sort))
+	if [ -t 1 ]; then
+		echo $out | column
+	else
+		echo $out
+	fi
+}
+
+##################
+# termcap colors #
+##################
+
+export LESS_TERMCAP_md=$'\e[91m'
+export LESS_TERMCAP_me=$'\e[0m'
+export LESS_TERMCAP_us=$'\e[92m'
+export LESS_TERMCAP_ue=$'\e[0m'
+export LESS_TERMCAP_so=$'\e[44;93m'
+export LESS_TERMCAP_se=$'\e[0m'
