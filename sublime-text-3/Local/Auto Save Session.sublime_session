@@ -1,0 +1,2160 @@
+{
+	"folder_history":
+	[
+		"/home/mattiadr/conf-files/awesome",
+		"/home/mattiadr/.config/autostart-scripts",
+		"/home/mattiadr/.config/awesome",
+		"/usr/local/src/st",
+		"/home/mattiadr/Workspace/megashare",
+		"/run/media/mattiadr/KINGSTONE 16GB/scord",
+		"/home/mattiadr/Downloads/scord",
+		"/home/mattiadr/Laboratori algoritmi/esame1",
+		"/home/mattiadr/Laboratori algoritmi/esame",
+		"/home/mattiadr/Laboratori algoritmi/lab11",
+		"/home/mattiadr/Laboratori algoritmi/lab10/es03/Codice C Cap15-19/Graphs/Undirected Graph/Weighted/weighted graph adjacency list",
+		"/home/mattiadr/Laboratori algoritmi/lab10/es04",
+		"/home/mattiadr/Laboratori algoritmi/lab10/es03",
+		"/home/mattiadr/Laboratori algoritmi/lab10/es01",
+		"/home/mattiadr/Laboratori algoritmi/lab10/es02/BST",
+		"/home/mattiadr/Laboratori algoritmi/lab10/es02",
+		"/home/mattiadr/Downloads/Codice C Cap14/Priority Queues/PQItem",
+		"/home/mattiadr/Laboratori algoritmi/lab09/es02",
+		"/home/mattiadr/Laboratori algoritmi/lab09/es01",
+		"/home/mattiadr/Laboratori algoritmi/lab10/es01/bak",
+		"/home/mattiadr/Laboratori algoritmi/lab10/es01/giuseppe",
+		"/home/mattiadr/Laboratori algoritmi/lab08/es04",
+		"/home/mattiadr/Laboratori algoritmi/lab08/es03",
+		"/home/mattiadr/Laboratori algoritmi/lab07/es02",
+		"/home/mattiadr",
+		"/home/mattiadr/Laboratori algoritmi/lab08/es01",
+		"/home/mattiadr/Laboratori algoritmi/lab07",
+		"/home/mattiadr/git",
+		"/home/mattiadr/Laboratori algoritmi",
+		"/home/mattiadr/.local/share/kservices5",
+		"/home/mattiadr/.local/share/baloo",
+		"/home/mattiadr/Laboratori algoritmi/lab06",
+		"/home/mattiadr/Laboratori algoritmi/lab05",
+		"/home/mattiadr/Laboratori algoritmi/lab04",
+		"/home/mattiadr/Downloads",
+		"/etc",
+		"/home/mattiadr/Laboratori algoritmi/lab03"
+	],
+	"last_version": 3143,
+	"last_window_id": 70,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 1053.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"awf",
+						"awful.key"
+					],
+					[
+						"print",
+						"printResult"
+					],
+					[
+						"wid",
+						"width"
+					],
+					[
+						"fun",
+						"function\tfunction"
+					],
+					[
+						"ma",
+						"malloc\tmalloc(sizeof)"
+					],
+					[
+						"the",
+						"theme"
+					],
+					[
+						"DEF",
+						"DEF_ARCHIVE_FORMAT"
+					],
+					[
+						"mega",
+						"megamkdir"
+					],
+					[
+						"src",
+						"strcpy"
+					],
+					[
+						"dir",
+						"dirname"
+					],
+					[
+						"o_f",
+						"o_archive_format\t(options.c)"
+					],
+					[
+						"archive",
+						"archive_format"
+					],
+					[
+						"o_remo",
+						"o_remote_directory"
+					],
+					[
+						"o_",
+						"o_remote_filename\t(options.c)"
+					],
+					[
+						"rem",
+						"rem_path"
+					],
+					[
+						"GET",
+						"GETOPT_STR\t(options.c)"
+					],
+					[
+						"DE",
+						"DEF_REMOTE_DIR"
+					],
+					[
+						"n",
+						"n_files"
+					],
+					[
+						"File",
+						"FileList\t(options.c)"
+					],
+					[
+						"files",
+						"files_end"
+					],
+					[
+						"Fil",
+						"FileList"
+					],
+					[
+						"struc",
+						"struct"
+					],
+					[
+						"op",
+						"options\t(options.c)"
+					],
+					[
+						"FILE",
+						"FILENAME"
+					],
+					[
+						"opt",
+						"options"
+					],
+					[
+						"getop",
+						"getopt_short"
+					],
+					[
+						"upload",
+						"uploading"
+					],
+					[
+						"arc",
+						"archive_format"
+					],
+					[
+						"Me",
+						"MEGA_DEF_DIR"
+					],
+					[
+						"remote",
+						"remote_directory"
+					],
+					[
+						"remo",
+						"remote_path"
+					],
+					[
+						"help",
+						"help_string\t(options.c)"
+					],
+					[
+						"str",
+						"struct\tstruct"
+					],
+					[
+						"awe",
+						"awesome.restart"
+					],
+					[
+						"scr",
+						"scrot.png"
+					],
+					[
+						"en",
+						"enter \tMake Stack Frame for Procedure Parameters"
+					],
+					[
+						"opd",
+						"opd1\tlabel"
+					],
+					[
+						"or",
+						"orps \tBitwise Logical OR of Single"
+					],
+					[
+						"e",
+						"exit_code"
+					],
+					[
+						"c_",
+						"c_green"
+					],
+					[
+						"c_re",
+						"c_reset"
+					],
+					[
+						"c_p",
+						"c_pipe"
+					],
+					[
+						"pr",
+						"printf\tprintf …"
+					],
+					[
+						"prin",
+						"print_grid"
+					],
+					[
+						"lis",
+						"list_tail"
+					],
+					[
+						"li",
+						"list_tail"
+					],
+					[
+						"time",
+						"timeinfo"
+					],
+					[
+						"hos",
+						"host_symbol"
+					],
+					[
+						"cur",
+						"curr_time"
+					],
+					[
+						"ini",
+						"initrd\t(10_linux)"
+					],
+					[
+						"menu",
+						"menuentry\t(10_linux)"
+					],
+					[
+						"STget",
+						"STgetItem"
+					],
+					[
+						"In",
+						"INT_MAX"
+					],
+					[
+						"inc",
+						"inc\t#include <…>"
+					],
+					[
+						"GRA",
+						"GRAPHccv\t(main.c)"
+					],
+					[
+						"GRAPHin",
+						"GRAPHinit\t(main.c)"
+					],
+					[
+						"in",
+						"inc\t#include <…>"
+					],
+					[
+						"best",
+						"bestDiam"
+					],
+					[
+						"MAX",
+						"MAX_S"
+					],
+					[
+						"bes",
+						"bestDiam"
+					],
+					[
+						"combi",
+						"combinazioniW"
+					],
+					[
+						"be",
+						"bestSol"
+					],
+					[
+						"GRAP",
+						"GRAPHinsert"
+					],
+					[
+						"Item",
+						"Item_swap"
+					],
+					[
+						"Lis",
+						"List_print"
+					],
+					[
+						"Li",
+						"List_print"
+					],
+					[
+						"proc",
+						"processFavPage"
+					],
+					[
+						"for",
+						"for\tfor (…) {…}"
+					],
+					[
+						"LIS",
+						"LISTprint"
+					],
+					[
+						"LI",
+						"LISTfree\t(List.c)"
+					],
+					[
+						"tr",
+						"trovaPos"
+					],
+					[
+						"St",
+						"STgetItem"
+					],
+					[
+						"si",
+						"size"
+					],
+					[
+						"ST",
+						"STinit\t(main.c)"
+					],
+					[
+						"ty",
+						"typedef\t(main.c)"
+					],
+					[
+						"LIST",
+						"LISTextrhead\t(main.c)"
+					],
+					[
+						"STin",
+						"STinsert\t(main.c)"
+					],
+					[
+						"STr",
+						"STretrieve"
+					],
+					[
+						"sta",
+						"stA"
+					],
+					[
+						"de",
+						"detPerf"
+					],
+					[
+						"E",
+						"EDGEcreate"
+					],
+					[
+						"sol",
+						"soluz"
+					],
+					[
+						"conne",
+						"connettiGrafo"
+					],
+					[
+						"Insi",
+						"Insieme"
+					],
+					[
+						"Ins",
+						"Insieme"
+					],
+					[
+						"GRApow",
+						"GRAPHpowerSet\t(Graph.c)"
+					],
+					[
+						"mall",
+						"malloc\tmalloc(sizeof)"
+					],
+					[
+						"min",
+						"minDistR"
+					],
+					[
+						"GRac",
+						"GRAPHcc\t(Graph.c)"
+					],
+					[
+						"Edg",
+						"Edge_new\t(Graph.c)"
+					],
+					[
+						"Graph_matr",
+						"Graph_printAdjMatrix"
+					],
+					[
+						"int",
+						"inter"
+					],
+					[
+						"legg",
+						"leggiTessera"
+					],
+					[
+						"db_",
+						"db_users"
+					],
+					[
+						"User_se",
+						"BST_User_searchInsert"
+					],
+					[
+						"User_st",
+						"User_stampaUtilizzi\t(user.c)"
+					],
+					[
+						"m_sta",
+						"m_stampa_utenti"
+					],
+					[
+						"stat",
+						"stationID"
+					],
+					[
+						"nol",
+						"nolCorr"
+					],
+					[
+						"BST_U",
+						"BST_User_searchInsert\t(BST.c)"
+					],
+					[
+						"db",
+						"db_users"
+					],
+					[
+						"BST_Us",
+						"BST_User_insert\t(BST.c)"
+					],
+					[
+						"re",
+						"returnNode"
+					],
+					[
+						"ret",
+						"returnNode"
+					],
+					[
+						"Stat",
+						"Station_stampa\t(station.c)"
+					],
+					[
+						"BST_Stta",
+						"BST_Station_search\t(BST.c)"
+					],
+					[
+						"BST_stat",
+						"BST_Station_print\t(BST.c)"
+					],
+					[
+						"num",
+						"numBici"
+					],
+					[
+						"preor",
+						"PREORDER"
+					],
+					[
+						"BST",
+						"BSTNode"
+					],
+					[
+						"BS",
+						"BSTNode"
+					],
+					[
+						"STat",
+						"Station_new\t(station.c)"
+					],
+					[
+						"BST_in",
+						"BST_Station_insert\t(BST.c)"
+					],
+					[
+						"BST_St",
+						"BST_Station_insert\t(BST.c)"
+					],
+					[
+						"nu",
+						"numBici"
+					],
+					[
+						"BSTU",
+						"BST_USER_INSERT_R"
+					],
+					[
+						"Ro",
+						"ROT_R"
+					],
+					[
+						"RO",
+						"ROT_L"
+					],
+					[
+						"G",
+						"GET_BALANCE"
+					],
+					[
+						"Use",
+						"User_strcmp"
+					],
+					[
+						"new",
+						"NEW_NODE"
+					],
+					[
+						"_BST",
+						"_BSTNode"
+					],
+					[
+						"BSTn",
+						"BSTNode"
+					],
+					[
+						"Uti",
+						"Utilizzo"
+					],
+					[
+						"_BT",
+						"_BSTNode"
+					],
+					[
+						"strc",
+						"strcpy\t(user.c)"
+					],
+					[
+						"UT",
+						"UTILIZZO_AGGIUNGI"
+					],
+					[
+						"Ut",
+						"Utilizzo"
+					]
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 393.0,
+				"last_filter": "bash",
+				"selected_items":
+				[
+					[
+						"bash",
+						"Set Syntax: Shell Script (Bash)"
+					],
+					[
+						"prop",
+						"Set Syntax: Java Properties"
+					],
+					[
+						"c",
+						"Set Syntax: C"
+					],
+					[
+						"theme",
+						"UI: Select Theme"
+					],
+					[
+						"dot",
+						"Set Syntax: Graphviz (DOT)"
+					],
+					[
+						"pyth",
+						"Set Syntax: Python"
+					],
+					[
+						"plain",
+						"Set Syntax: Plain Text"
+					],
+					[
+						"xml",
+						"Set Syntax: XML"
+					],
+					[
+						"java",
+						"Set Syntax: Java"
+					],
+					[
+						"prope",
+						"Set Syntax: Java Properties"
+					],
+					[
+						"nasm",
+						"Set Syntax: Assembly x86 (NASM)"
+					],
+					[
+						"pla",
+						"Set Syntax: Plain Text"
+					],
+					[
+						"asm",
+						"Set Syntax: Assembly x86 (NASM)"
+					],
+					[
+						"extrac",
+						"PackageResourceViewer: Extract Package"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"packa insta",
+						"Package Control: Install Package"
+					],
+					[
+						"remove pa",
+						"Package Control: Remove Package"
+					],
+					[
+						"properties",
+						"Set Syntax: Java Properties"
+					],
+					[
+						"proper",
+						"Set Syntax: Java Properties"
+					],
+					[
+						"mips",
+						"Set Syntax: MIPS"
+					],
+					[
+						"install pa",
+						"Package Control: Install Package"
+					],
+					[
+						"js",
+						"Set Syntax: JavaScript"
+					],
+					[
+						"packa",
+						"Package Control: List Packages"
+					],
+					[
+						"pack",
+						"Preferences: Browse Packages"
+					],
+					[
+						"c++",
+						"Set Syntax: C++"
+					],
+					[
+						"css",
+						"Set Syntax: CSS"
+					],
+					[
+						"package",
+						"Package Control: List Packages"
+					],
+					[
+						"extra",
+						"PackageResourceViewer: Extract Package"
+					],
+					[
+						"ja",
+						"Set Syntax: Java"
+					],
+					[
+						"py",
+						"Set Syntax: Python"
+					],
+					[
+						"syte",
+						"Set Syntax: LaTeX"
+					],
+					[
+						"pacins",
+						"Package Control: Install Package"
+					],
+					[
+						"open re",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"open res",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"syn\tc",
+						"Set Syntax: C"
+					],
+					[
+						"syn c",
+						"Set Syntax: C"
+					],
+					[
+						"packageres",
+						"PackageResourceViewer: Extract Package"
+					],
+					[
+						"package rem\t",
+						"Package Control: Remove Package"
+					],
+					[
+						"package list",
+						"Package Control: List Packages"
+					],
+					[
+						"insta\t",
+						"Package Control: Install Package"
+					],
+					[
+						"synta c",
+						"Set Syntax: C"
+					],
+					[
+						"snippet",
+						"SnippetMaker: Edit Snippet"
+					],
+					[
+						"snippetmaker",
+						"SnippetMaker: Edit Snippet"
+					],
+					[
+						"package control",
+						"Package Control: List Packages"
+					],
+					[
+						"pac",
+						"Package Control: Install Package"
+					],
+					[
+						"",
+						"About"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"all au",
+						"Package Control: List Unmanaged Packages"
+					],
+					[
+						"install package\t",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 533.0
+			},
+			"console":
+			{
+				"height": 143.0,
+				"history":
+				[
+					"os.listdir()",
+					"import os",
+					"ls"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/mattiadr/conf-files/awesome/autorun.sh",
+				"/home/mattiadr/conf-files/awesome/apw/widget.lua",
+				"/home/mattiadr/Downloads/alba",
+				"/home/mattiadr/.config/awesome/rc",
+				"/etc/zsh/zsh_aliases",
+				"/etc/zsh/zshrc",
+				"/home/mattiadr/.config/awesome/theme/theme.lua",
+				"/home/mattiadr/Downloads/project_greenhouse.c",
+				"/home/mattiadr/Workspace/megashare/megashare.sh",
+				"/home/mattiadr/Downloads/db.sql",
+				"/home/mattiadr/.zsh_history",
+				"/usr/local/src/scord/main.c",
+				"/usr/local/src/scord/options.c",
+				"/home/mattiadr/Downloads/st-custom/src/st-0.8.1/arg.h",
+				"/home/mattiadr/Downloads/st/st-scrollback-0.8.diff",
+				"/home/mattiadr/Downloads/st-custom/scroll-fix.diff",
+				"/home/mattiadr/Downloads/st-custom/src/st-0.8.1/scroll-fix.diff",
+				"/home/mattiadr/Downloads/st/PKGBUILD",
+				"/home/mattiadr/Downloads/st-custom/src/st-0.8.1/config.h",
+				"/home/mattiadr/Downloads/st-custom/src/st-0.8.1/Makefile",
+				"/home/mattiadr/Downloads/st/src/st-0.7/Makefile",
+				"/tmp/xa-Q6ZHGZ/Makefile",
+				"/tmp/xa-PUMAGZ/st-256color",
+				"/home/mattiadr/Downloads/st-custom/st/LICENSE",
+				"/home/mattiadr/Downloads/st/config.h",
+				"/home/mattiadr/Downloads/st-custom/st/config.h",
+				"/home/mattiadr/Downloads/st-custom/st/st.info",
+				"/home/mattiadr/Downloads/st/st-scrollback-mouse-altscreen-0.8.diff",
+				"/tmp/xa-H86JGZ/st.1",
+				"/home/mattiadr/Downloads/st/st-scrollback-mouse-0.8.diff",
+				"/home/mattiadr/Downloads/st-custom/st/config.def.h",
+				"/home/mattiadr/Downloads/st-custom/st/Makefile",
+				"/home/mattiadr/Downloads/st/st-scrollback-0.7.diff",
+				"/home/mattiadr/Downloads/st/src/st-0.7/config.def.h",
+				"/home/mattiadr/Downloads/st/src/st-0.7/config.h",
+				"/home/mattiadr/Downloads/st/src/st-0.7/st.c",
+				"/home/mattiadr/Downloads/st/.SRCINFO",
+				"/home/mattiadr/Downloads/st/src/st-scrollback-0.8.diff",
+				"/home/mattiadr/WineApps/emu8086/Options/LoadFlag.dat",
+				"/etc/nanorc",
+				"/home/mattiadr/.config/sublime-text-3/Packages/NASM x86 Assembly/code/completion.py",
+				"/home/mattiadr/.config/sublime-text-3/Packages/NASM x86 Assembly/package-metadata.json",
+				"/home/mattiadr/.config/sublime-text-3/Packages/NASM x86 Assembly/NASM.sublime-build",
+				"/home/mattiadr/.config/sublime-text-3/Packages/NASM x86 Assembly/instructions.json",
+				"/home/mattiadr/.config/sublime-text-3/Packages/NASM x86 Assembly/Context.sublime-menu",
+				"/home/mattiadr/WineApps/emu8086/Options/Fonts.dat",
+				"/home/mattiadr/WineApps/emu8086/emu8086.ini",
+				"/home/mattiadr/.config/awesome/rc.lua",
+				"/tmp/.touchpaddefaults",
+				"/tmp/b3200bf82a3ac691d7eafa4a4079f382aa8d0dae.megatools.cache",
+				"/home/mattiadr/Downloads/megatools/megatools-1.9.98/lib/alloc.h",
+				"/home/mattiadr/Downloads/megatools/megatools-1.9.98/lib/tools.h",
+				"/home/mattiadr/Downloads/megatools/megatools-1.9.98/lib/tools.c",
+				"/home/mattiadr/Downloads/megatools/PKGBUILD",
+				"/home/mattiadr/.config/sublime-text-3/Packages/Dotfiles Syntax Highlighting/Shell-Unix-Generic.sublime-settings",
+				"/home/mattiadr/.config/sublime-text-3/Packages/Dotfiles Syntax Highlighting/package-metadata.json",
+				"/tmp/xa-V3QLFZ/README.md",
+				"/home/mattiadr/Workspace/eclipse/Reply/first_adventure.out",
+				"/home/mattiadr/Polito/Calcolatori Elettronici/test",
+				"/home/mattiadr/Polito/Calcolatori Elettronici/hello.asm",
+				"/home/mattiadr/Polito/Calcolatori Elettronici/hello.lst",
+				"/home/mattiadr/Polito/Calcolatori Elettronici/assembler",
+				"/home/mattiadr/Downloads/TeamSpeak3-Client-linux_amd64-3.1.5.run",
+				"/home/mattiadr/appunti db/2018-03-12 - Algebra relazionale",
+				"/home/mattiadr/arch",
+				"/home/mattiadr/appunti db/2018-03-12 algebra relazionale",
+				"/home/mattiadr/astah-community/PKGBUILD",
+				"/home/mattiadr/intro",
+				"/home/mattiadr/Downloads/arch",
+				"/home/mattiadr/Downloads/config.h",
+				"/home/mattiadr/Downloads/zshrc",
+				"/home/mattiadr/Downloads/test/out0",
+				"/home/mattiadr/Downloads/test/out7",
+				"/opt/Kerbal Space Program/support/gog_com.shlib",
+				"/home/mattiadr/.config/unity3d/Squad/Kerbal Space Program/prefs",
+				"/home/mattiadr/Downloads/st/src/st-0.7/config.def.h.rej",
+				"/home/mattiadr/Downloads/st/st-scrollback-20170329-149c0d3.diff",
+				"/tmp/xa-DQ20EZ/st.c",
+				"/tmp/xa-DQ20EZ/arg.h",
+				"/home/mattiadr/.oh-my-zsh/themes/example.zsh-theme",
+				"/home/mattiadr/.oh-my-zsh/themes/fishy.zsh-theme",
+				"/etc/zsh/zshrc.bak",
+				"/etc/zsh/zprofile",
+				"/home/mattiadr/Downloads/g-hash/e_high_bonus.in",
+				"/home/mattiadr/Downloads/g-hash/.gitignore",
+				"/home/mattiadr/.config/sublime-text-3/Packages/All Autocomplete/All Autocomplete.sublime-settings",
+				"/home/mattiadr/.config/sublime-text-3/Packages/User/All Autocomplete.sublime-settings",
+				"/home/mattiadr/.zshrc",
+				"/home/mattiadr/.oh-my-zsh/oh-my-zsh.sh",
+				"/home/mattiadr/.zshrc.oh-my-zsh",
+				"/home/mattiadr/.cache/kioexec/krun/1944_0/linux.md",
+				"/run/media/mattiadr/KINGSTONE 16G/grub",
+				"/home/mattiadr/Laboratori algoritmi/esame1/main",
+				"/home/mattiadr/Laboratori algoritmi/esame1/Graph.h",
+				"/home/mattiadr/Laboratori algoritmi/esame1/output",
+				"/home/mattiadr/Laboratori algoritmi/esame1/Graph.c",
+				"/home/mattiadr/Laboratori algoritmi/esame1/input",
+				"/home/mattiadr/Laboratori algoritmi/esame1/sol2.txt",
+				"/home/mattiadr/Laboratori algoritmi/esame1/grafo.txt",
+				"/home/mattiadr/Laboratori algoritmi/esame1/results",
+				"/home/mattiadr/Downloads/grafo.txt",
+				"/home/mattiadr/Downloads/sol2.txt",
+				"/home/mattiadr/Laboratori algoritmi/esame1/Edge.c",
+				"/home/mattiadr/Laboratori algoritmi/esame1/Edge.h",
+				"/tmp/xa-5EWAEZ/PQ.c",
+				"/home/mattiadr/Laboratori algoritmi/esame1/PQ.c",
+				"/tmp/xa-5EWAEZ/Graph.c",
+				"/home/mattiadr/Laboratori algoritmi/esame1/sol1.txt",
+				"/home/mattiadr/Laboratori algoritmi/esame1/PQ.h",
+				"/home/mattiadr/Laboratori algoritmi/esame1/Graph1.h",
+				"/tmp/xa-2R5FEZ/Graph.c",
+				"/tmp/xa-2R5FEZ/PQ.h",
+				"/tmp/xa-2R5FEZ/PQ.c",
+				"/home/mattiadr/Laboratori algoritmi/esame1/Graph1.c",
+				"/home/mattiadr/Laboratori algoritmi/esame1/ST.h",
+				"/home/mattiadr/Laboratori algoritmi/esame1/ST.c",
+				"/home/mattiadr/Laboratori algoritmi/esame/ST.c",
+				"/home/mattiadr/Laboratori algoritmi/s223817_4/L10/E04/main.c",
+				"/tmp/xa-YQ2OEZ/st.c",
+				"/tmp/xa-YQ2OEZ/config.def.h",
+				"/tmp/xa-YQ2OEZ/config.mk",
+				"/tmp/xa-YQ2OEZ/arg.h",
+				"/tmp/xa-YQ2OEZ/README",
+				"/home/mattiadr/.bashrc",
+				"/opt/Stardew Valley/gameinfo",
+				"/opt/Stardew Valley/start.sh",
+				"/home/mattiadr/Laboratori algoritmi/esame/match",
+				"/home/mattiadr/Downloads/Spotify-AdKiller/Spotify (AdKiller).desktop"
+			],
+			"find":
+			{
+				"height": 25.0
+			},
+			"find_in_files":
+			{
+				"height": 101.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": true,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 25.0
+			},
+			"input":
+			{
+				"height": 37.0
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 423.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.unsaved_changes":
+			{
+				"height": 397.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 46.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 225.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 1920.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"awf",
+						"awful.key"
+					],
+					[
+						"print",
+						"printResult"
+					],
+					[
+						"wid",
+						"width"
+					],
+					[
+						"fun",
+						"function\tfunction"
+					],
+					[
+						"ma",
+						"malloc\tmalloc(sizeof)"
+					],
+					[
+						"the",
+						"theme"
+					],
+					[
+						"DEF",
+						"DEF_ARCHIVE_FORMAT"
+					],
+					[
+						"mega",
+						"megamkdir"
+					],
+					[
+						"src",
+						"strcpy"
+					],
+					[
+						"dir",
+						"dirname"
+					],
+					[
+						"o_f",
+						"o_archive_format\t(options.c)"
+					],
+					[
+						"archive",
+						"archive_format"
+					],
+					[
+						"o_remo",
+						"o_remote_directory"
+					],
+					[
+						"o_",
+						"o_remote_filename\t(options.c)"
+					],
+					[
+						"rem",
+						"rem_path"
+					],
+					[
+						"GET",
+						"GETOPT_STR\t(options.c)"
+					],
+					[
+						"DE",
+						"DEF_REMOTE_DIR"
+					],
+					[
+						"n",
+						"n_files"
+					],
+					[
+						"File",
+						"FileList\t(options.c)"
+					],
+					[
+						"files",
+						"files_end"
+					],
+					[
+						"Fil",
+						"FileList"
+					],
+					[
+						"struc",
+						"struct"
+					],
+					[
+						"op",
+						"options\t(options.c)"
+					],
+					[
+						"FILE",
+						"FILENAME"
+					],
+					[
+						"opt",
+						"options"
+					],
+					[
+						"getop",
+						"getopt_short"
+					],
+					[
+						"upload",
+						"uploading"
+					],
+					[
+						"arc",
+						"archive_format"
+					],
+					[
+						"Me",
+						"MEGA_DEF_DIR"
+					],
+					[
+						"remote",
+						"remote_directory"
+					],
+					[
+						"remo",
+						"remote_path"
+					],
+					[
+						"help",
+						"help_string\t(options.c)"
+					],
+					[
+						"str",
+						"struct\tstruct"
+					],
+					[
+						"awe",
+						"awesome.restart"
+					],
+					[
+						"scr",
+						"scrot.png"
+					],
+					[
+						"en",
+						"enter \tMake Stack Frame for Procedure Parameters"
+					],
+					[
+						"opd",
+						"opd1\tlabel"
+					],
+					[
+						"or",
+						"orps \tBitwise Logical OR of Single"
+					],
+					[
+						"e",
+						"exit_code"
+					],
+					[
+						"c_",
+						"c_green"
+					],
+					[
+						"c_re",
+						"c_reset"
+					],
+					[
+						"c_p",
+						"c_pipe"
+					],
+					[
+						"pr",
+						"printf\tprintf …"
+					],
+					[
+						"prin",
+						"print_grid"
+					],
+					[
+						"lis",
+						"list_tail"
+					],
+					[
+						"li",
+						"list_tail"
+					],
+					[
+						"time",
+						"timeinfo"
+					],
+					[
+						"hos",
+						"host_symbol"
+					],
+					[
+						"cur",
+						"curr_time"
+					],
+					[
+						"ini",
+						"initrd\t(10_linux)"
+					],
+					[
+						"menu",
+						"menuentry\t(10_linux)"
+					],
+					[
+						"STget",
+						"STgetItem"
+					],
+					[
+						"In",
+						"INT_MAX"
+					],
+					[
+						"inc",
+						"inc\t#include <…>"
+					],
+					[
+						"GRA",
+						"GRAPHccv\t(main.c)"
+					],
+					[
+						"GRAPHin",
+						"GRAPHinit\t(main.c)"
+					],
+					[
+						"in",
+						"inc\t#include <…>"
+					],
+					[
+						"best",
+						"bestDiam"
+					],
+					[
+						"MAX",
+						"MAX_S"
+					],
+					[
+						"bes",
+						"bestDiam"
+					],
+					[
+						"combi",
+						"combinazioniW"
+					],
+					[
+						"be",
+						"bestSol"
+					],
+					[
+						"GRAP",
+						"GRAPHinsert"
+					],
+					[
+						"Item",
+						"Item_swap"
+					],
+					[
+						"Lis",
+						"List_print"
+					],
+					[
+						"Li",
+						"List_print"
+					],
+					[
+						"proc",
+						"processFavPage"
+					],
+					[
+						"for",
+						"for\tfor (…) {…}"
+					],
+					[
+						"LIS",
+						"LISTprint"
+					],
+					[
+						"LI",
+						"LISTfree\t(List.c)"
+					],
+					[
+						"tr",
+						"trovaPos"
+					],
+					[
+						"St",
+						"STgetItem"
+					],
+					[
+						"si",
+						"size"
+					],
+					[
+						"ST",
+						"STinit\t(main.c)"
+					],
+					[
+						"ty",
+						"typedef\t(main.c)"
+					],
+					[
+						"LIST",
+						"LISTextrhead\t(main.c)"
+					],
+					[
+						"STin",
+						"STinsert\t(main.c)"
+					],
+					[
+						"STr",
+						"STretrieve"
+					],
+					[
+						"sta",
+						"stA"
+					],
+					[
+						"de",
+						"detPerf"
+					],
+					[
+						"E",
+						"EDGEcreate"
+					],
+					[
+						"sol",
+						"soluz"
+					],
+					[
+						"conne",
+						"connettiGrafo"
+					],
+					[
+						"Insi",
+						"Insieme"
+					],
+					[
+						"Ins",
+						"Insieme"
+					],
+					[
+						"GRApow",
+						"GRAPHpowerSet\t(Graph.c)"
+					],
+					[
+						"mall",
+						"malloc\tmalloc(sizeof)"
+					],
+					[
+						"min",
+						"minDistR"
+					],
+					[
+						"GRac",
+						"GRAPHcc\t(Graph.c)"
+					],
+					[
+						"Edg",
+						"Edge_new\t(Graph.c)"
+					],
+					[
+						"Graph_matr",
+						"Graph_printAdjMatrix"
+					],
+					[
+						"int",
+						"inter"
+					],
+					[
+						"legg",
+						"leggiTessera"
+					],
+					[
+						"db_",
+						"db_users"
+					],
+					[
+						"User_se",
+						"BST_User_searchInsert"
+					],
+					[
+						"User_st",
+						"User_stampaUtilizzi\t(user.c)"
+					],
+					[
+						"m_sta",
+						"m_stampa_utenti"
+					],
+					[
+						"stat",
+						"stationID"
+					],
+					[
+						"nol",
+						"nolCorr"
+					],
+					[
+						"BST_U",
+						"BST_User_searchInsert\t(BST.c)"
+					],
+					[
+						"db",
+						"db_users"
+					],
+					[
+						"BST_Us",
+						"BST_User_insert\t(BST.c)"
+					],
+					[
+						"re",
+						"returnNode"
+					],
+					[
+						"ret",
+						"returnNode"
+					],
+					[
+						"Stat",
+						"Station_stampa\t(station.c)"
+					],
+					[
+						"BST_Stta",
+						"BST_Station_search\t(BST.c)"
+					],
+					[
+						"BST_stat",
+						"BST_Station_print\t(BST.c)"
+					],
+					[
+						"num",
+						"numBici"
+					],
+					[
+						"preor",
+						"PREORDER"
+					],
+					[
+						"BST",
+						"BSTNode"
+					],
+					[
+						"BS",
+						"BSTNode"
+					],
+					[
+						"STat",
+						"Station_new\t(station.c)"
+					],
+					[
+						"BST_in",
+						"BST_Station_insert\t(BST.c)"
+					],
+					[
+						"BST_St",
+						"BST_Station_insert\t(BST.c)"
+					],
+					[
+						"nu",
+						"numBici"
+					],
+					[
+						"BSTU",
+						"BST_USER_INSERT_R"
+					],
+					[
+						"Ro",
+						"ROT_R"
+					],
+					[
+						"RO",
+						"ROT_L"
+					],
+					[
+						"G",
+						"GET_BALANCE"
+					],
+					[
+						"Use",
+						"User_strcmp"
+					],
+					[
+						"new",
+						"NEW_NODE"
+					],
+					[
+						"_BST",
+						"_BSTNode"
+					],
+					[
+						"BSTn",
+						"BSTNode"
+					],
+					[
+						"Uti",
+						"Utilizzo"
+					],
+					[
+						"_BT",
+						"_BSTNode"
+					],
+					[
+						"strc",
+						"strcpy\t(user.c)"
+					],
+					[
+						"UT",
+						"UTILIZZO_AGGIUNGI"
+					],
+					[
+						"Ut",
+						"Utilizzo"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/mattiadr/conf-files/.gitignore",
+					"settings":
+					{
+						"buffer_size": 42,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 393.0,
+				"last_filter": "bash",
+				"selected_items":
+				[
+					[
+						"bash",
+						"Set Syntax: Shell Script (Bash)"
+					],
+					[
+						"prop",
+						"Set Syntax: Java Properties"
+					],
+					[
+						"c",
+						"Set Syntax: C"
+					],
+					[
+						"theme",
+						"UI: Select Theme"
+					],
+					[
+						"dot",
+						"Set Syntax: Graphviz (DOT)"
+					],
+					[
+						"pyth",
+						"Set Syntax: Python"
+					],
+					[
+						"plain",
+						"Set Syntax: Plain Text"
+					],
+					[
+						"xml",
+						"Set Syntax: XML"
+					],
+					[
+						"java",
+						"Set Syntax: Java"
+					],
+					[
+						"prope",
+						"Set Syntax: Java Properties"
+					],
+					[
+						"nasm",
+						"Set Syntax: Assembly x86 (NASM)"
+					],
+					[
+						"pla",
+						"Set Syntax: Plain Text"
+					],
+					[
+						"asm",
+						"Set Syntax: Assembly x86 (NASM)"
+					],
+					[
+						"extrac",
+						"PackageResourceViewer: Extract Package"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"packa insta",
+						"Package Control: Install Package"
+					],
+					[
+						"remove pa",
+						"Package Control: Remove Package"
+					],
+					[
+						"properties",
+						"Set Syntax: Java Properties"
+					],
+					[
+						"proper",
+						"Set Syntax: Java Properties"
+					],
+					[
+						"mips",
+						"Set Syntax: MIPS"
+					],
+					[
+						"install pa",
+						"Package Control: Install Package"
+					],
+					[
+						"js",
+						"Set Syntax: JavaScript"
+					],
+					[
+						"packa",
+						"Package Control: List Packages"
+					],
+					[
+						"pack",
+						"Preferences: Browse Packages"
+					],
+					[
+						"c++",
+						"Set Syntax: C++"
+					],
+					[
+						"css",
+						"Set Syntax: CSS"
+					],
+					[
+						"package",
+						"Package Control: List Packages"
+					],
+					[
+						"extra",
+						"PackageResourceViewer: Extract Package"
+					],
+					[
+						"ja",
+						"Set Syntax: Java"
+					],
+					[
+						"py",
+						"Set Syntax: Python"
+					],
+					[
+						"syte",
+						"Set Syntax: LaTeX"
+					],
+					[
+						"pacins",
+						"Package Control: Install Package"
+					],
+					[
+						"open re",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"open res",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"syn\tc",
+						"Set Syntax: C"
+					],
+					[
+						"syn c",
+						"Set Syntax: C"
+					],
+					[
+						"packageres",
+						"PackageResourceViewer: Extract Package"
+					],
+					[
+						"package rem\t",
+						"Package Control: Remove Package"
+					],
+					[
+						"package list",
+						"Package Control: List Packages"
+					],
+					[
+						"insta\t",
+						"Package Control: Install Package"
+					],
+					[
+						"synta c",
+						"Set Syntax: C"
+					],
+					[
+						"snippet",
+						"SnippetMaker: Edit Snippet"
+					],
+					[
+						"snippetmaker",
+						"SnippetMaker: Edit Snippet"
+					],
+					[
+						"package control",
+						"Package Control: List Packages"
+					],
+					[
+						"pac",
+						"Package Control: Install Package"
+					],
+					[
+						"",
+						"About"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"all au",
+						"Package Control: List Unmanaged Packages"
+					],
+					[
+						"install package\t",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 533.0
+			},
+			"console":
+			{
+				"height": 143.0,
+				"history":
+				[
+					"os.listdir()",
+					"import os",
+					"ls"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/mattiadr/conf-files/awesome/autorun.sh",
+				"/home/mattiadr/conf-files/awesome/apw/widget.lua",
+				"/home/mattiadr/Downloads/alba",
+				"/home/mattiadr/.config/awesome/rc",
+				"/etc/zsh/zsh_aliases",
+				"/etc/zsh/zshrc",
+				"/home/mattiadr/.config/awesome/theme/theme.lua",
+				"/home/mattiadr/Downloads/project_greenhouse.c",
+				"/home/mattiadr/Workspace/megashare/megashare.sh",
+				"/home/mattiadr/Downloads/db.sql",
+				"/home/mattiadr/.zsh_history",
+				"/usr/local/src/scord/main.c",
+				"/usr/local/src/scord/options.c",
+				"/home/mattiadr/Downloads/st-custom/src/st-0.8.1/arg.h",
+				"/home/mattiadr/Downloads/st/st-scrollback-0.8.diff",
+				"/home/mattiadr/Downloads/st-custom/scroll-fix.diff",
+				"/home/mattiadr/Downloads/st-custom/src/st-0.8.1/scroll-fix.diff",
+				"/home/mattiadr/Downloads/st/PKGBUILD",
+				"/home/mattiadr/Downloads/st-custom/src/st-0.8.1/config.h",
+				"/home/mattiadr/Downloads/st-custom/src/st-0.8.1/Makefile",
+				"/home/mattiadr/Downloads/st/src/st-0.7/Makefile",
+				"/tmp/xa-Q6ZHGZ/Makefile",
+				"/tmp/xa-PUMAGZ/st-256color",
+				"/home/mattiadr/Downloads/st-custom/st/LICENSE",
+				"/home/mattiadr/Downloads/st/config.h",
+				"/home/mattiadr/Downloads/st-custom/st/config.h",
+				"/home/mattiadr/Downloads/st-custom/st/st.info",
+				"/home/mattiadr/Downloads/st/st-scrollback-mouse-altscreen-0.8.diff",
+				"/tmp/xa-H86JGZ/st.1",
+				"/home/mattiadr/Downloads/st/st-scrollback-mouse-0.8.diff",
+				"/home/mattiadr/Downloads/st-custom/st/config.def.h",
+				"/home/mattiadr/Downloads/st-custom/st/Makefile",
+				"/home/mattiadr/Downloads/st/st-scrollback-0.7.diff",
+				"/home/mattiadr/Downloads/st/src/st-0.7/config.def.h",
+				"/home/mattiadr/Downloads/st/src/st-0.7/config.h",
+				"/home/mattiadr/Downloads/st/src/st-0.7/st.c",
+				"/home/mattiadr/Downloads/st/.SRCINFO",
+				"/home/mattiadr/Downloads/st/src/st-scrollback-0.8.diff",
+				"/home/mattiadr/WineApps/emu8086/Options/LoadFlag.dat",
+				"/etc/nanorc",
+				"/home/mattiadr/.config/sublime-text-3/Packages/NASM x86 Assembly/code/completion.py",
+				"/home/mattiadr/.config/sublime-text-3/Packages/NASM x86 Assembly/package-metadata.json",
+				"/home/mattiadr/.config/sublime-text-3/Packages/NASM x86 Assembly/NASM.sublime-build",
+				"/home/mattiadr/.config/sublime-text-3/Packages/NASM x86 Assembly/instructions.json",
+				"/home/mattiadr/.config/sublime-text-3/Packages/NASM x86 Assembly/Context.sublime-menu",
+				"/home/mattiadr/WineApps/emu8086/Options/Fonts.dat",
+				"/home/mattiadr/WineApps/emu8086/emu8086.ini",
+				"/home/mattiadr/.config/awesome/rc.lua",
+				"/tmp/.touchpaddefaults",
+				"/tmp/b3200bf82a3ac691d7eafa4a4079f382aa8d0dae.megatools.cache",
+				"/home/mattiadr/Downloads/megatools/megatools-1.9.98/lib/alloc.h",
+				"/home/mattiadr/Downloads/megatools/megatools-1.9.98/lib/tools.h",
+				"/home/mattiadr/Downloads/megatools/megatools-1.9.98/lib/tools.c",
+				"/home/mattiadr/Downloads/megatools/PKGBUILD",
+				"/home/mattiadr/.config/sublime-text-3/Packages/Dotfiles Syntax Highlighting/Shell-Unix-Generic.sublime-settings",
+				"/home/mattiadr/.config/sublime-text-3/Packages/Dotfiles Syntax Highlighting/package-metadata.json",
+				"/tmp/xa-V3QLFZ/README.md",
+				"/home/mattiadr/Workspace/eclipse/Reply/first_adventure.out",
+				"/home/mattiadr/Polito/Calcolatori Elettronici/test",
+				"/home/mattiadr/Polito/Calcolatori Elettronici/hello.asm",
+				"/home/mattiadr/Polito/Calcolatori Elettronici/hello.lst",
+				"/home/mattiadr/Polito/Calcolatori Elettronici/assembler",
+				"/home/mattiadr/Downloads/TeamSpeak3-Client-linux_amd64-3.1.5.run",
+				"/home/mattiadr/appunti db/2018-03-12 - Algebra relazionale",
+				"/home/mattiadr/arch",
+				"/home/mattiadr/appunti db/2018-03-12 algebra relazionale",
+				"/home/mattiadr/astah-community/PKGBUILD",
+				"/home/mattiadr/intro",
+				"/home/mattiadr/Downloads/arch",
+				"/home/mattiadr/Downloads/config.h",
+				"/home/mattiadr/Downloads/zshrc",
+				"/home/mattiadr/Downloads/test/out0",
+				"/home/mattiadr/Downloads/test/out7",
+				"/opt/Kerbal Space Program/support/gog_com.shlib",
+				"/home/mattiadr/.config/unity3d/Squad/Kerbal Space Program/prefs",
+				"/home/mattiadr/Downloads/st/src/st-0.7/config.def.h.rej",
+				"/home/mattiadr/Downloads/st/st-scrollback-20170329-149c0d3.diff",
+				"/tmp/xa-DQ20EZ/st.c",
+				"/tmp/xa-DQ20EZ/arg.h",
+				"/home/mattiadr/.oh-my-zsh/themes/example.zsh-theme",
+				"/home/mattiadr/.oh-my-zsh/themes/fishy.zsh-theme",
+				"/etc/zsh/zshrc.bak",
+				"/etc/zsh/zprofile",
+				"/home/mattiadr/Downloads/g-hash/e_high_bonus.in",
+				"/home/mattiadr/Downloads/g-hash/.gitignore",
+				"/home/mattiadr/.config/sublime-text-3/Packages/All Autocomplete/All Autocomplete.sublime-settings",
+				"/home/mattiadr/.config/sublime-text-3/Packages/User/All Autocomplete.sublime-settings",
+				"/home/mattiadr/.zshrc",
+				"/home/mattiadr/.oh-my-zsh/oh-my-zsh.sh",
+				"/home/mattiadr/.zshrc.oh-my-zsh",
+				"/home/mattiadr/.cache/kioexec/krun/1944_0/linux.md",
+				"/run/media/mattiadr/KINGSTONE 16G/grub",
+				"/home/mattiadr/Laboratori algoritmi/esame1/main",
+				"/home/mattiadr/Laboratori algoritmi/esame1/Graph.h",
+				"/home/mattiadr/Laboratori algoritmi/esame1/output",
+				"/home/mattiadr/Laboratori algoritmi/esame1/Graph.c",
+				"/home/mattiadr/Laboratori algoritmi/esame1/input",
+				"/home/mattiadr/Laboratori algoritmi/esame1/sol2.txt",
+				"/home/mattiadr/Laboratori algoritmi/esame1/grafo.txt",
+				"/home/mattiadr/Laboratori algoritmi/esame1/results",
+				"/home/mattiadr/Downloads/grafo.txt",
+				"/home/mattiadr/Downloads/sol2.txt",
+				"/home/mattiadr/Laboratori algoritmi/esame1/Edge.c",
+				"/home/mattiadr/Laboratori algoritmi/esame1/Edge.h",
+				"/tmp/xa-5EWAEZ/PQ.c",
+				"/home/mattiadr/Laboratori algoritmi/esame1/PQ.c",
+				"/tmp/xa-5EWAEZ/Graph.c",
+				"/home/mattiadr/Laboratori algoritmi/esame1/sol1.txt",
+				"/home/mattiadr/Laboratori algoritmi/esame1/PQ.h",
+				"/home/mattiadr/Laboratori algoritmi/esame1/Graph1.h",
+				"/tmp/xa-2R5FEZ/Graph.c",
+				"/tmp/xa-2R5FEZ/PQ.h",
+				"/tmp/xa-2R5FEZ/PQ.c",
+				"/home/mattiadr/Laboratori algoritmi/esame1/Graph1.c",
+				"/home/mattiadr/Laboratori algoritmi/esame1/ST.h",
+				"/home/mattiadr/Laboratori algoritmi/esame1/ST.c",
+				"/home/mattiadr/Laboratori algoritmi/esame/ST.c",
+				"/home/mattiadr/Laboratori algoritmi/s223817_4/L10/E04/main.c",
+				"/tmp/xa-YQ2OEZ/st.c",
+				"/tmp/xa-YQ2OEZ/config.def.h",
+				"/tmp/xa-YQ2OEZ/config.mk",
+				"/tmp/xa-YQ2OEZ/arg.h",
+				"/tmp/xa-YQ2OEZ/README",
+				"/home/mattiadr/.bashrc",
+				"/opt/Stardew Valley/gameinfo",
+				"/opt/Stardew Valley/start.sh",
+				"/home/mattiadr/Laboratori algoritmi/esame/match",
+				"/home/mattiadr/Downloads/Spotify-AdKiller/Spotify (AdKiller).desktop"
+			],
+			"find":
+			{
+				"height": 25.0
+			},
+			"find_in_files":
+			{
+				"height": 101.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": true,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/mattiadr/conf-files/.gitignore",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 42,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										42,
+										42
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.clone": -1,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content"
+									],
+									"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 25.0
+			},
+			"input":
+			{
+				"height": 37.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 423.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.unsaved_changes":
+			{
+				"height": 397.0
+			},
+			"pinned_build_system": "",
+			"position": "0,0,0,0,0,0,0,960,1053,1920,1080",
+			"project": "",
+			"replace":
+			{
+				"height": 46.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 225.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 69,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+			"/home/mattiadr/Laboratori algoritmi/lab05/Lab05.sublime-workspace"
+		]
+	}
+}
