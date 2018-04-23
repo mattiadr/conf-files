@@ -1,4 +1,4 @@
-alias aliases="sudo subl $ZSH_CONFIG/aliases"
+alias aliases="subl $ZSH_CONFIG/aliases"
 
 ###########
 # aliases #

@@ -1,6 +1,7 @@
 {
 	"folder_history":
 	[
+		"/home/mattiadr/conf-files/awesome",
 		"/home/mattiadr/.config/autostart-scripts",
 		"/home/mattiadr/.config/awesome",
 		"/usr/local/src/st",
@@ -39,17 +40,21 @@
 		"/home/mattiadr/Laboratori algoritmi/lab03"
 	],
 	"last_version": 3143,
-	"last_window_id": 68,
+	"last_window_id": 70,
 	"log_indexing": false,
 	"settings":
 	{
-		"new_window_height": 1056.0,
+		"new_window_height": 1053.0,
 		"new_window_settings":
 		{
 			"auto_complete":
 			{
 				"selected_items":
 				[
+					[
+						"awf",
+						"awful.key"
+					],
 					[
 						"print",
 						"printResult"
@@ -557,10 +562,6 @@
 					[
 						"Ut",
 						"Utilizzo"
-					],
-					[
-						"pri",
-						"primoUtilizzo"
 					]
 				]
 			},
@@ -571,9 +572,13 @@
 			"command_palette":
 			{
 				"height": 393.0,
-				"last_filter": "prop",
+				"last_filter": "bash",
 				"selected_items":
 				[
+					[
+						"bash",
+						"Set Syntax: Shell Script (Bash)"
+					],
 					[
 						"prop",
 						"Set Syntax: Java Properties"
@@ -585,10 +590,6 @@
 					[
 						"theme",
 						"UI: Select Theme"
-					],
-					[
-						"bash",
-						"Set Syntax: Shell Script (Bash)"
 					],
 					[
 						"dot",
@@ -771,7 +772,7 @@
 						"Package Control: Install Package"
 					]
 				],
-				"width": 476.0
+				"width": 533.0
 			},
 			"console":
 			{
@@ -794,6 +795,8 @@
 			},
 			"file_history":
 			[
+				"/home/mattiadr/conf-files/awesome/autorun.sh",
+				"/home/mattiadr/conf-files/awesome/apw/widget.lua",
 				"/home/mattiadr/Downloads/alba",
 				"/home/mattiadr/.config/awesome/rc",
 				"/etc/zsh/zsh_aliases",
@@ -919,13 +922,11 @@
 				"/opt/Stardew Valley/gameinfo",
 				"/opt/Stardew Valley/start.sh",
 				"/home/mattiadr/Laboratori algoritmi/esame/match",
-				"/home/mattiadr/Downloads/Spotify-AdKiller/Spotify (AdKiller).desktop",
-				"/home/mattiadr/Laboratori algoritmi/esame/List.c",
-				"/home/mattiadr/Laboratori algoritmi/esame/agenzie"
+				"/home/mattiadr/Downloads/Spotify-AdKiller/Spotify (AdKiller).desktop"
 			],
 			"find":
 			{
-				"height": 39.0
+				"height": 25.0
 			},
 			"find_in_files":
 			{
@@ -939,19 +940,6 @@
 				"case_sensitive": true,
 				"find_history":
 				[
-					"no",
-					"naughty",
-					"height",
-					"margin",
-					"width",
-					"margin",
-					"s",
-					"no",
-					"args",
-					"beautiful",
-					"bg",
-					"bg_normal",
-					"set_wallpaper"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -1040,6 +1028,10 @@
 				"selected_items":
 				[
 					[
+						"awf",
+						"awful.key"
+					],
+					[
 						"print",
 						"printResult"
 					],
@@ -1546,10 +1538,6 @@
 					[
 						"Ut",
 						"Utilizzo"
-					],
-					[
-						"pri",
-						"primoUtilizzo"
 					]
 				]
 			},
@@ -1561,9 +1549,13 @@
 			"command_palette":
 			{
 				"height": 393.0,
-				"last_filter": "prop",
+				"last_filter": "bash",
 				"selected_items":
 				[
+					[
+						"bash",
+						"Set Syntax: Shell Script (Bash)"
+					],
 					[
 						"prop",
 						"Set Syntax: Java Properties"
@@ -1575,10 +1567,6 @@
 					[
 						"theme",
 						"UI: Select Theme"
-					],
-					[
-						"bash",
-						"Set Syntax: Shell Script (Bash)"
 					],
 					[
 						"dot",
@@ -1761,7 +1749,7 @@
 						"Package Control: Install Package"
 					]
 				],
-				"width": 476.0
+				"width": 533.0
 			},
 			"console":
 			{
@@ -1784,6 +1772,8 @@
 			},
 			"file_history":
 			[
+				"/home/mattiadr/conf-files/awesome/autorun.sh",
+				"/home/mattiadr/conf-files/awesome/apw/widget.lua",
 				"/home/mattiadr/Downloads/alba",
 				"/home/mattiadr/.config/awesome/rc",
 				"/etc/zsh/zsh_aliases",
@@ -1909,13 +1899,11 @@
 				"/opt/Stardew Valley/gameinfo",
 				"/opt/Stardew Valley/start.sh",
 				"/home/mattiadr/Laboratori algoritmi/esame/match",
-				"/home/mattiadr/Downloads/Spotify-AdKiller/Spotify (AdKiller).desktop",
-				"/home/mattiadr/Laboratori algoritmi/esame/List.c",
-				"/home/mattiadr/Laboratori algoritmi/esame/agenzie"
+				"/home/mattiadr/Downloads/Spotify-AdKiller/Spotify (AdKiller).desktop"
 			],
 			"find":
 			{
-				"height": 39.0
+				"height": 25.0
 			},
 			"find_in_files":
 			{
@@ -1929,19 +1917,6 @@
 				"case_sensitive": true,
 				"find_history":
 				[
-					"no",
-					"naughty",
-					"height",
-					"margin",
-					"width",
-					"margin",
-					"s",
-					"no",
-					"args",
-					"beautiful",
-					"bg",
-					"bg_normal",
-					"set_wallpaper"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -2000,7 +1975,7 @@
 				"height": 397.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,0,0,1920,1056,1920,1080",
+			"position": "0,0,0,0,0,0,0,1920,1053,1920,1080",
 			"replace":
 			{
 				"height": 46.0
@@ -2045,7 +2020,7 @@
 			"template_settings":
 			{
 			},
-			"window_id": 68
+			"window_id": 69
 		}
 	],
 	"workspaces":

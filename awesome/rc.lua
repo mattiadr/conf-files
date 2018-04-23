@@ -167,6 +167,9 @@ buttons_layouts = gears.table.join(
 -- {{{ Widgets
 -- textclock
 widget_clock = wibox.widget.textclock()
+
+-- awesome pulseaudio widget
+local APW = require("apw/widget")
 -- }}}
 
 -- {{{ Wibar
@@ -178,7 +181,7 @@ awful.screen.connect_for_each_screen(function(s)
 
 	local tag_names = { "Main", "Web", "Dev", "Term", "5", "6", "7", "8", "9" }
 	local l = awful.layout.suit
-	local tag_layouts = { l.floating, l.max, l.tile, l.fair }
+	local tag_layouts = { l.floating, l.tile, l.tile, l.fair }
 	awful.tag(tag_names, s, tag_layouts)
 
 	s.widget_prompt = awful.widget.prompt()
@@ -206,6 +209,7 @@ awful.screen.connect_for_each_screen(function(s)
 		{ -- Right widgets
 			layout = wibox.layout.fixed.horizontal,
 			wibox.widget.systray(),
+			APW,
 			widget_clock,
 			s.widget_layout,
 		},
@@ -287,7 +291,11 @@ globalkeys = gears.table.join(
 	-- Tag
 	awful.key({ modkey,           }, "Escape", awful.tag.history.restore,    { description = "go back", group = "tag" }),
 	awful.key({ modkey,           }, "Left",   awful.tag.viewprev,           { description = "view previous", group = "tag" }),
-	awful.key({ modkey,           }, "Right",  awful.tag.viewnext,           { description = "view next", group = "tag" })
+	awful.key({ modkey,           }, "Right",  awful.tag.viewnext,           { description = "view next", group = "tag" }),
+	-- Audio Control
+	awful.key({ }, "XF86AudioRaiseVolume",     APW.Up),
+	awful.key({ }, "XF86AudioLowerVolume",     APW.Down),
+	awful.key({ }, "XF86AudioMute",            APW.ToggleMute)
 )
 -- Tag
 for i = 1, 9 do
@@ -395,8 +403,8 @@ awful.rules.rules = {
 		properties = {
 			tag = "Web",
 			switchtotag = true,
-			floating = true,
-			maximized = true,
+			floating = false,
+			maximized = false,
 			border_width = 0,
 		}
 	},
@@ -517,5 +525,5 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 -- }}}
 
 -- Startup and autorun
--- awful.spawn.with_shell(gears.filesystem.get_configuration_dir() .. "startup.sh")
+awful.spawn.with_shell(gears.filesystem.get_configuration_dir() .. "startup.sh")
 awful.spawn.with_shell(gears.filesystem.get_configuration_dir() .. "autorun.sh")

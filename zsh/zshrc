@@ -1,14 +1,17 @@
 ZSH_CONFIG="/home/mattiadr/conf-files/zsh"
-alias zshrc="sudo subl $ZSH_CONFIG/zshrc"
+alias zshrc="subl $ZSH_CONFIG/zshrc"
 
 ##########
 # config #
 ##########
 
-# completion
-autoload -Uz compinit
-compinit
-zstyle ':completion:*' menu select
+# generic
+HISTFILE=~/.zsh_history
+HISTSIZE=2000
+SAVEHIST=2000
+setopt appendhistory nomatch
+unsetopt autocd beep
+bindkey -e
 
 # keybinds
 bindkey "^[[4h"   overwrite-mode                    # ins
@@ -22,6 +25,17 @@ bindkey "^[[1;5B" history-beginning-search-forward  # ctrl + down
 bindkey "^[[1;5C" forward-word                      # ctrl + right
 bindkey "^[[1;5D" backward-word                     # ctrl + left
 
+# completion
+zstyle ':completion:*' menu select
+zstyle ':completion:*' completer _expand _complete _ignored
+zstyle ':completion:*' format '%d'
+zstyle ':completion:*' group-name ''
+zstyle ':completion:*' ignore-parents pwd
+zstyle ':completion:*' matcher-list ''
+zstyle ':completion:*' preserve-prefix '//[^/]##/'
+autoload -Uz compinit
+compinit
+
 #######
 # PS1 #
 #######
@@ -29,24 +43,19 @@ bindkey "^[[1;5D" backward-word                     # ctrl + left
 local c_reset='%f%b'
 local c_pipe='%F{yellow}'
 local c_red='%B%F{red}'
-local c_blue='%B%F{blue}'
 local c_green='%B%F{green}'
 
 if [[ $UID -eq 0 ]]; then
 	local c_primary=$c_red
+	local symbol=#
 else
 	local c_primary=$c_green
+	local symbol=\$
 fi
 
-local host_machine="${c_primary}%n@%m"
-local host_symbol="${c_primary}$"
-local current_dir="${c_reset}%~"
-local curr_time="${c_reset}%D %T"
+PS1="${c_pipe}[${c_reset} ${c_primary}%n${c_reset} ${c_pipe}|${c_reset} %~ ${c_pipe}]${c_primary}${symbol}${c_reset} "
 
-PS1="${c_pipe}╭─┤ ${host_machine} ${current_dir} ${c_pipe}├─╴
-${c_pipe}╰╴${host_symbol}${c_reset} "
-
-PS2="${c_primary}>>>${c_reset} "
+PS2="${c_primary}>>${c_reset} "
 
 ###########
 # aliases #
