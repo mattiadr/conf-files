@@ -40,17 +40,21 @@
 		"/home/mattiadr/Laboratori algoritmi/lab03"
 	],
 	"last_version": 3143,
-	"last_window_id": 70,
+	"last_window_id": 71,
 	"log_indexing": false,
 	"settings":
 	{
-		"new_window_height": 1053.0,
+		"new_window_height": 1020.0,
 		"new_window_settings":
 		{
 			"auto_complete":
 			{
 				"selected_items":
 				[
+					[
+						"widg",
+						"widget"
+					],
 					[
 						"awf",
 						"awful.key"
@@ -558,10 +562,6 @@
 					[
 						"UT",
 						"UTILIZZO_AGGIUNGI"
-					],
-					[
-						"Ut",
-						"Utilizzo"
 					]
 				]
 			},
@@ -795,8 +795,10 @@
 			},
 			"file_history":
 			[
-				"/home/mattiadr/conf-files/awesome/autorun.sh",
+				"/home/mattiadr/conf-files/awesome/rc.lua",
 				"/home/mattiadr/conf-files/awesome/apw/widget.lua",
+				"/home/mattiadr/conf-files/awesome/apw/pulseaudio.lua",
+				"/home/mattiadr/conf-files/awesome/autorun.sh",
 				"/home/mattiadr/Downloads/alba",
 				"/home/mattiadr/.config/awesome/rc",
 				"/etc/zsh/zsh_aliases",
@@ -920,13 +922,11 @@
 				"/tmp/xa-YQ2OEZ/README",
 				"/home/mattiadr/.bashrc",
 				"/opt/Stardew Valley/gameinfo",
-				"/opt/Stardew Valley/start.sh",
-				"/home/mattiadr/Laboratori algoritmi/esame/match",
-				"/home/mattiadr/Downloads/Spotify-AdKiller/Spotify (AdKiller).desktop"
+				"/opt/Stardew Valley/start.sh"
 			],
 			"find":
 			{
-				"height": 25.0
+				"height": 41.0
 			},
 			"find_in_files":
 			{
@@ -937,7 +937,7 @@
 			},
 			"find_state":
 			{
-				"case_sensitive": true,
+				"case_sensitive": false,
 				"find_history":
 				[
 				],
@@ -1011,14 +1011,14 @@
 			"show_minimap": true,
 			"show_open_files": false,
 			"show_tabs": true,
-			"side_bar_visible": true,
+			"side_bar_visible": false,
 			"side_bar_width": 225.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			}
 		},
-		"new_window_width": 1920.0
+		"new_window_width": 940.0
 	},
 	"windows":
 	[
@@ -1027,6 +1027,10 @@
 			{
 				"selected_items":
 				[
+					[
+						"widg",
+						"widget"
+					],
 					[
 						"awf",
 						"awful.key"
@@ -1534,10 +1538,6 @@
 					[
 						"UT",
 						"UTILIZZO_AGGIUNGI"
-					],
-					[
-						"Ut",
-						"Utilizzo"
 					]
 				]
 			},
@@ -1772,8 +1772,10 @@
 			},
 			"file_history":
 			[
-				"/home/mattiadr/conf-files/awesome/autorun.sh",
+				"/home/mattiadr/conf-files/awesome/rc.lua",
 				"/home/mattiadr/conf-files/awesome/apw/widget.lua",
+				"/home/mattiadr/conf-files/awesome/apw/pulseaudio.lua",
+				"/home/mattiadr/conf-files/awesome/autorun.sh",
 				"/home/mattiadr/Downloads/alba",
 				"/home/mattiadr/.config/awesome/rc",
 				"/etc/zsh/zsh_aliases",
@@ -1897,13 +1899,11 @@
 				"/tmp/xa-YQ2OEZ/README",
 				"/home/mattiadr/.bashrc",
 				"/opt/Stardew Valley/gameinfo",
-				"/opt/Stardew Valley/start.sh",
-				"/home/mattiadr/Laboratori algoritmi/esame/match",
-				"/home/mattiadr/Downloads/Spotify-AdKiller/Spotify (AdKiller).desktop"
+				"/opt/Stardew Valley/start.sh"
 			],
 			"find":
 			{
-				"height": 25.0
+				"height": 41.0
 			},
 			"find_in_files":
 			{
@@ -1914,7 +1914,7 @@
 			},
 			"find_state":
 			{
-				"case_sensitive": true,
+				"case_sensitive": false,
 				"find_history":
 				[
 				],
@@ -1975,7 +1975,7 @@
 				"height": 397.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,0,0,1920,1053,1920,1080",
+			"position": "0,0,0,0,0,964,8,1904,1028,1920,1080",
 			"replace":
 			{
 				"height": 46.0
@@ -2014,13 +2014,13 @@
 			"show_minimap": true,
 			"show_open_files": false,
 			"show_tabs": true,
-			"side_bar_visible": true,
+			"side_bar_visible": false,
 			"side_bar_width": 225.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			},
-			"window_id": 69
+			"window_id": 71
 		}
 	],
 	"workspaces":

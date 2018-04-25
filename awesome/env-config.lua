@@ -26,7 +26,7 @@ function env:init()
 	--self.player = args.player or "Lollypop"
 	--self.upgrades = args.upgrades or "bash -c 'pacman -Qu | grep -v ignored | wc -l'"
 	self.home = os.getenv("HOME")
-	self.themedir = awful.util.get_configuration_dir() .. "themes/"
+	self.themedir = awful.util.get_configuration_dir() .. "theme/"
 
 	self.sloppy_focus = false
 	self.color_border = false
