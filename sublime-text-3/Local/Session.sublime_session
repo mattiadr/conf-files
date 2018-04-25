@@ -52,10 +52,6 @@
 				"selected_items":
 				[
 					[
-						"widg",
-						"widget"
-					],
-					[
 						"awf",
 						"awful.key"
 					],
@@ -562,6 +558,10 @@
 					[
 						"UT",
 						"UTILIZZO_AGGIUNGI"
+					],
+					[
+						"Ut",
+						"Utilizzo"
 					]
 				]
 			},
@@ -926,7 +926,7 @@
 			],
 			"find":
 			{
-				"height": 41.0
+				"height": 25.0
 			},
 			"find_in_files":
 			{
@@ -937,10 +937,9 @@
 			},
 			"find_state":
 			{
-				"case_sensitive": false,
+				"case_sensitive": true,
 				"find_history":
 				[
-					"apw"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -1028,10 +1027,6 @@
 			{
 				"selected_items":
 				[
-					[
-						"widg",
-						"widget"
-					],
 					[
 						"awf",
 						"awful.key"
@@ -1539,6 +1534,10 @@
 					[
 						"UT",
 						"UTILIZZO_AGGIUNGI"
+					],
+					[
+						"Ut",
+						"Utilizzo"
 					]
 				]
 			},
@@ -1904,7 +1903,7 @@
 			],
 			"find":
 			{
-				"height": 41.0
+				"height": 25.0
 			},
 			"find_in_files":
 			{
@@ -1915,10 +1914,9 @@
 			},
 			"find_state":
 			{
-				"case_sensitive": false,
+				"case_sensitive": true,
 				"find_history":
 				[
-					"apw"
 				],
 				"highlight": true,
 				"in_selection": false,
