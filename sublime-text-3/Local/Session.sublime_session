@@ -40,7 +40,7 @@
 		"/home/mattiadr/Laboratori algoritmi/lab03"
 	],
 	"last_version": 3143,
-	"last_window_id": 71,
+	"last_window_id": 73,
 	"log_indexing": false,
 	"settings":
 	{
@@ -795,6 +795,13 @@
 			},
 			"file_history":
 			[
+				"/home/mattiadr/conf-files/awesome.old/rc.lua",
+				"/usr/share/awesome/lib/wibox/widget/systray.lua",
+				"/home/mattiadr/conf-files/awesome/redflat/widget/minitray.lua",
+				"/home/mattiadr/conf-files/awesome/redflat/widget/mail.lua",
+				"/home/mattiadr/conf-files/awesome/keys-config.lua",
+				"/home/mattiadr/conf-files/awesome/redflat/widget/sysmon.lua",
+				"/home/mattiadr/conf-files/awesome/env-config.lua",
 				"/home/mattiadr/conf-files/awesome/rc.lua",
 				"/home/mattiadr/conf-files/awesome/apw/widget.lua",
 				"/home/mattiadr/conf-files/awesome/apw/pulseaudio.lua",
@@ -915,14 +922,7 @@
 				"/home/mattiadr/Laboratori algoritmi/esame1/ST.c",
 				"/home/mattiadr/Laboratori algoritmi/esame/ST.c",
 				"/home/mattiadr/Laboratori algoritmi/s223817_4/L10/E04/main.c",
-				"/tmp/xa-YQ2OEZ/st.c",
-				"/tmp/xa-YQ2OEZ/config.def.h",
-				"/tmp/xa-YQ2OEZ/config.mk",
-				"/tmp/xa-YQ2OEZ/arg.h",
-				"/tmp/xa-YQ2OEZ/README",
-				"/home/mattiadr/.bashrc",
-				"/opt/Stardew Valley/gameinfo",
-				"/opt/Stardew Valley/start.sh"
+				"/tmp/xa-YQ2OEZ/st.c"
 			],
 			"find":
 			{
@@ -940,6 +940,9 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"tray",
+					"forced",
+					"8"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -1011,14 +1014,14 @@
 			"show_minimap": true,
 			"show_open_files": false,
 			"show_tabs": true,
-			"side_bar_visible": false,
+			"side_bar_visible": true,
 			"side_bar_width": 225.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			}
 		},
-		"new_window_width": 940.0
+		"new_window_width": 1896.0
 	},
 	"windows":
 	[
@@ -1772,6 +1775,13 @@
 			},
 			"file_history":
 			[
+				"/home/mattiadr/conf-files/awesome.old/rc.lua",
+				"/usr/share/awesome/lib/wibox/widget/systray.lua",
+				"/home/mattiadr/conf-files/awesome/redflat/widget/minitray.lua",
+				"/home/mattiadr/conf-files/awesome/redflat/widget/mail.lua",
+				"/home/mattiadr/conf-files/awesome/keys-config.lua",
+				"/home/mattiadr/conf-files/awesome/redflat/widget/sysmon.lua",
+				"/home/mattiadr/conf-files/awesome/env-config.lua",
 				"/home/mattiadr/conf-files/awesome/rc.lua",
 				"/home/mattiadr/conf-files/awesome/apw/widget.lua",
 				"/home/mattiadr/conf-files/awesome/apw/pulseaudio.lua",
@@ -1892,14 +1902,7 @@
 				"/home/mattiadr/Laboratori algoritmi/esame1/ST.c",
 				"/home/mattiadr/Laboratori algoritmi/esame/ST.c",
 				"/home/mattiadr/Laboratori algoritmi/s223817_4/L10/E04/main.c",
-				"/tmp/xa-YQ2OEZ/st.c",
-				"/tmp/xa-YQ2OEZ/config.def.h",
-				"/tmp/xa-YQ2OEZ/config.mk",
-				"/tmp/xa-YQ2OEZ/arg.h",
-				"/tmp/xa-YQ2OEZ/README",
-				"/home/mattiadr/.bashrc",
-				"/opt/Stardew Valley/gameinfo",
-				"/opt/Stardew Valley/start.sh"
+				"/tmp/xa-YQ2OEZ/st.c"
 			],
 			"find":
 			{
@@ -1917,6 +1920,9 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"tray",
+					"forced",
+					"8"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -1975,7 +1981,7 @@
 				"height": 397.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,964,8,1904,1028,1920,1080",
+			"position": "0,0,0,0,0,8,8,1904,1028,1920,1080",
 			"replace":
 			{
 				"height": 46.0
@@ -2014,13 +2020,13 @@
 			"show_minimap": true,
 			"show_open_files": false,
 			"show_tabs": true,
-			"side_bar_visible": false,
+			"side_bar_visible": true,
 			"side_bar_width": 225.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			},
-			"window_id": 71
+			"window_id": 72
 		}
 	],
 	"workspaces":
