@@ -20,5 +20,5 @@
 	"match_tags": false,
 	"move_to_limit_on_up_down": true,
 	"show_encoding": true,
-	"theme": "Default.sublime-theme"
+	"theme": "Default.sublime-theme",
 }
