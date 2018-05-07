@@ -1,3 +1,4 @@
 {
 	"search_threshold": 10000,
+	"content_highlight_bar": true,
 }
