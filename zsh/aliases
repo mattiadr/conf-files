@@ -29,6 +29,7 @@ alias egrep="egrep --color=auto"
 alias fgrep="fgrep --color=auto"
 alias free="free -h"
 alias dl-music="youtube-dl --extract-audio --audio-format mp3 --audio-quality 0 --download-archive .archive 'https://www.youtube.com/playlist?list=PL6ZSqFV30ZuuNXV5xXcMU-_m8_z0_iyWb'"
+alias open="xdg-open"
 
 #sudo
 if [ $UID -ne 0 ]; then
