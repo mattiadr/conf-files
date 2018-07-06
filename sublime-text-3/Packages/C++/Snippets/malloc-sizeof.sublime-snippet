@@ -1,6 +1,0 @@
-<snippet>
-	<description>malloc(sizeof)</description>
-	<content><![CDATA[malloc(${1:${2:n} * }sizeof(${3:type}));]]></content>
-	<tabTrigger>malloc</tabTrigger>
-	<scope>(source.c | source.objc | source.c++ | source.objc++) - entity.name.function</scope>
-</snippet>
