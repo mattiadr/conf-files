@@ -14,6 +14,10 @@ setopt histignoredups
 unsetopt autocd beep
 bindkey -e
 
+# colors
+autoload -U colors
+colors
+
 # keybinds
 bindkey "^[[4h"   overwrite-mode                    # ins
 bindkey "^[[P"    delete-char                       # del
@@ -34,8 +38,22 @@ zstyle ':completion:*' group-name ''
 zstyle ':completion:*' ignore-parents pwd
 zstyle ':completion:*' matcher-list ''
 zstyle ':completion:*' preserve-prefix '//[^/]##/'
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
+zstyle ":completion:*:commands" rehash 1
 autoload -Uz compinit
 compinit
+
+# vcs
+autoload -Uz vcs_info
+zstyle ':vcs_info:*' enable git
+zstyle ':vcs_info:*' check-for-changes true
+zstyle ':vcs_info:git*' formats "%b %m%u%c"
+
+precmd() {
+	vcs_info
+}
+
+setopt prompt_subst
 
 #######
 # PS1 #
@@ -55,6 +73,7 @@ else
 fi
 
 PS1="${c_pipe}[${c_reset} ${c_primary}%n${c_reset} ${c_pipe}|${c_reset} %~ ${c_pipe}]${c_primary}${symbol}${c_reset} "
+RPS1='${vcs_info_msg_0_}'
 
 PS2="${c_primary}>>${c_reset} "
 
