@@ -5,20 +5,8 @@ alias zshrc="subl $ZSH_CONFIG/zshrc"
 # config #
 ##########
 
-# generic
-HISTFILE=~/.zsh_history
-HISTSIZE=2000
-SAVEHIST=2000
-setopt appendhistory nomatch
-setopt histignoredups
-unsetopt autocd beep
-bindkey -e
-
-# colors
-autoload -U colors
-colors
-
 # keybinds
+bindkey -e
 bindkey "^[[4h"   overwrite-mode                    # ins
 bindkey "^[[P"    delete-char                       # del
 bindkey "^[[H"    beginning-of-line                 # home
@@ -30,7 +18,42 @@ bindkey "^[[1;5B" history-beginning-search-forward  # ctrl + down
 bindkey "^[[1;5C" forward-word                      # ctrl + right
 bindkey "^[[1;5D" backward-word                     # ctrl + left
 
+# On an ambiguous completion, instead of listing possibilities or beeping,
+# insert the first match immediately.
+# setopt menu_complete
+
+# Treat the ‘#’, ‘~’ and ‘^’ characters as part of patterns for filename
+# generation, etc. (An initial unquoted ‘~’ always produces named directory
+# expansion.)
+setopt extended_glob
+
+# If this is set, zsh sessions will append their history list to the history
+# file, rather than replace it.
+setopt append_history
+
+# Do not enter command lines into the history list if they are duplicates of
+# the previous event.
+setopt hist_ignore_dups
+
+# Remove superfluous blanks from each command line being added to the history
+# list.
+setopt hist_reduce_blanks
+
+HISTFILE=~/.zsh_history
+HISTSIZE=2000
+SAVEHIST=2000
+
+#With this option set, stopped jobs that are removed from the job table with
+# the disown builtin command are automatically sent a CONT signal to make them
+# running.
+setopt auto_continue
+
+# Beep on error in ZLE.
+setopt no_beep
+
 # completion
+autoload -Uz compinit
+compinit
 zstyle ':completion:*' menu select
 zstyle ':completion:*' completer _expand _complete _ignored
 zstyle ':completion:*' format '%d'
@@ -40,8 +63,6 @@ zstyle ':completion:*' matcher-list ''
 zstyle ':completion:*' preserve-prefix '//[^/]##/'
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
 zstyle ":completion:*:commands" rehash 1
-autoload -Uz compinit
-compinit
 
 # vcs
 autoload -Uz vcs_info
