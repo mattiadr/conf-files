@@ -8,7 +8,7 @@ alias sudo="sudo "
 #eval $(thefuck --alias)
 
 #commands
-alias ls="ls -p --color=auto --group-directories-first"
+alias ls="LC_ALL=C ls -p --color=auto --group-directories-first"
 alias lsa="ls -A"
 alias ll="ls -lh"
 alias lla="lsa -lh"
