@@ -32,6 +32,13 @@ alias rename="perl-rename"
 alias free="free -h"
 alias dl-music="youtube-dl --extract-audio --audio-format mp3 --audio-quality 0 --download-archive .archive 'https://www.youtube.com/playlist?list=PL6ZSqFV30ZuuNXV5xXcMU-_m8_z0_iyWb'"
 
+#git commands
+alias gs="git status"
+alias gaa="git add -all"
+alias gcm="git commit -m"
+alias gp="git push"
+alias gl="git pull"
+
 #sudo
 if [ $UID -ne 0 ]; then
 	alias shutdown="sudo shutdown"
