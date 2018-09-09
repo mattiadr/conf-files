@@ -11,7 +11,8 @@ local beautiful = require("beautiful")
 local redflat = require("redflat")
 
 local appnames = require("configs/alias-config")
-local lock_screen = require("user.util.screen-lock").lock_screen
+local lock_screen = require("user/util/screen-lock").lock_screen
+local cheatsheet = require("user/float/cheatsheet-selector")
 
 -- Initialize tables and vars for module
 -----------------------------------------------------------------------------------------------------------------------
@@ -713,6 +714,10 @@ function hotkeys:init(args)
 		{
 			{ env.mod }, "F2", function() redflat.service.navigator:run() end,
 			{ description = "Window control mode", group = "Main" }
+		},
+		{
+			{ env.mod }, "F3", function() cheatsheet:show() end,
+			{ description = "Show cheatsheets", group = "Main" }
 		},
 		{
 			{ env.mod }, "F12", lock_screen,

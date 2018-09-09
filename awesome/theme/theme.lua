@@ -577,7 +577,7 @@ theme.float.apprunner = {
 	title_height  = 48,
 	prompt_height = 35,
 	title_icon    = theme.path .. "/widget/search.svg",
-	keytip        = { geometry = { width = 400, height = 250 } },
+	keytip        = { geometry = { width = 400, height = 260 } },
 	border_width  = 0,
 	name_font     = theme.fonts.title,
 	comment_font  = theme.fonts.main,
@@ -632,10 +632,10 @@ theme.float.hotkeys = {
 	border_margin = { 20, 20, 8, 10 },
 	border_width  = 0,
 	is_align      = true,
-	separator     = { marginh = { 0, 0, 3, 6 } },
 	font          = theme.fonts.hotkeys.main,
 	keyfont       = theme.fonts.hotkeys.key,
 	titlefont     = theme.fonts.hotkeys.title,
+	separator     = { marginh = { 0, 0, 3, 6 } },
 	color         = theme.color
 }
 
@@ -724,6 +724,31 @@ theme.float.calendar = {
 	color        = theme.color
 }
 
+-- Cheatsheet selector
+------------------------------------------------------------
+theme.float.cheatsheet_selector = {
+	location      = theme.homedir .. "/conf-files/cheatsheets",
+	itemnum       = 4,
+	geometry      = { width = 300, height = 300 },
+	border_margin = { 24, 24, 24, 24 },
+	title_height  = 48,
+	prompt_height = 35,
+	border_width  = 2,
+	name_font     = theme.fonts.title,
+	name_margin   = { 10, 10, 0, 0 },
+	color         = theme.color,
+}
+
+-- Cheatsheet viewer
+------------------------------------------------------------
+theme.float.cheatsheet_viewer = {
+	border_margin = { 20, 20, 8, 10 },
+	font          = theme.fonts.hotkeys.main,
+	keyfont       = theme.fonts.hotkeys.key,
+	titlefont     = theme.fonts.hotkeys.title,
+	separator     = { marginh = { 0, 0, 3, 6 } },
+	color         = theme.color
+}
 
 -- Titlebar
 -----------------------------------------------------------------------------------------------------------------------
