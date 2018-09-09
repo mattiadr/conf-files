@@ -1,0 +1,65 @@
+regex
+#Meta sequences
+.		Any single character
+\s		Any whitespace character
+\S		Any non whitespace character
+\w		Any word character
+\W		Any non word character
+\d		Any digit character
+\D		Any non digit character
+\X		Any unicode character, linebreaks included
+\xYY	Hex character YY
+\ddd	Octal character ddd
+\		Makes any character literal
+#Anchors
+^		Start of string
+$		End of string
+\A		Start of string
+\Z		End of string
+\z		Absolute end of string
+\b		A word boundary
+\B		Non-word boundary
+#Quantifiers
+?		Zero or one of preceding token
+*		Zero or more of preceding token
++		One or more of preceding token
+{N}		Exactly N of preceding token
+{N,}	N or more of preceding token
+{N,M}	Between N and M of preceding token
+#Group constructs
+(...)		Capture everything enclosed
+(a|b)		Match either a or b
+(?:...)		Match but not capture everything enclosed
+(?>...)		Non-capturing group
+(?=...)		Positive Lookahead
+(?!...)		Negative Lookahead
+(?<=...)	Positive Lookbehind
+(?<!...)	Negative Lookbehind
+#Character classes
+[abc]			A character in the group
+[^abc]			A character not in the group
+[a-z]			A character in the range
+[^a-z]			A character not in the range
+[a-zA-Z]		A character in the range a-z or A-Z
+[[:alnum:]]		Letters and digits
+[[:alpha:]]		Letters
+[[:ascii:]]		Ascii codes 0-127
+[[:blank:]]		Space or tab only
+[[:cntrl:]]		Control characters
+[[:digit:]]		Decimal characters
+[[:graph:]] 	Visible characters (not space)
+[[:lower:]]		Lowercase letters
+[[:print:]]		Visible characters
+[[:punct:]]		Visible punctuation characters
+[[:space:]]		Whitespace
+[[:upper:]]		Uppercase characters
+[[:word:]]		Word characters
+[[:xdigit:]]	Hexadecimal digits
+[[:<:]]			Start of word
+[[:>:]]			End or word
+#Flags and modifiers
+g	Global
+m	Multiline
+i	Case insensitive
+x	Ignore whitespace
+s	Single line
