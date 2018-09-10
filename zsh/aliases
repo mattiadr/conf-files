@@ -35,6 +35,7 @@ alias dl-music="youtube-dl --extract-audio --audio-format mp3 --audio-quality 0 
 #git commands
 alias gs="git status"
 alias gaa="git add --all"
+alias gc="git commit"
 alias gcm="git commit -m"
 alias gp="git push"
 alias gl="git pull"
