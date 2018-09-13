@@ -1,5 +1,5 @@
 ﻿###
-###  vlc 3.0.3
+###  vlc 3.0.4
 ###
 
 ###
@@ -28,7 +28,7 @@
 [upnp] # Universal Plug'n'Play
 
 # SAT>IP channel list (string)
-#satip-channelist=ASTRA_19_2E
+#satip-channelist=auto
 
 # Custom SAT>IP channel list URL (string)
 #satip-channellist-url=
@@ -501,7 +501,7 @@
 #sout-avi-subject=
 
 # Encoder (string)
-#sout-avi-encoder=VLC Media Player - 3.0.3 Vetinari
+#sout-avi-encoder=VLC Media Player - 3.0.4 Vetinari
 
 # Keywords (string)
 #sout-avi-keywords=
@@ -1803,7 +1803,7 @@ freetype-font=Noto Sans
 #freetype-fontsize=0
 
 # Relative font size (integer)
-#freetype-rel-fontsize=16
+#freetype-rel-fontsize=0
 
 # Text opacity (integer)
 #freetype-opacity=255
@@ -2288,7 +2288,7 @@ sout-x264-tune=film
 [subsdec] # Text subtitle decoder
 
 # Subtitle justification (integer)
-#subsdec-align=0
+#subsdec-align=-1
 
 # Subtitle text encoding (string)
 #subsdec-encoding=
@@ -2678,38 +2678,6 @@ sout-x264-tune=film
 
 # Show shoutcast adult content (boolean)
 #shoutcast-show-adult=0
-
-[ts] # MPEG Transport Stream demuxer
-
-# Digital TV Standard (string)
-#ts-standard=auto
-
-# Extra PMT (string)
-#ts-extra-pmt=
-
-# Trust in-stream PCR (boolean)
-#ts-trust-pcr=1
-
-# Set id of ES to PID (boolean)
-#ts-es-id-pid=1
-
-# CSA Key (string)
-#ts-csa-ck=
-
-# Second CSA Key (string)
-#ts-csa2-ck=
-
-# Packet size in bytes to decrypt (integer)
-#ts-csa-pkt=188
-
-# Separate sub-streams (boolean)
-#ts-split-es=1
-
-# Seek based on percent not time (boolean)
-#ts-seek-percent=0
-
-# Check packets continuity counter (boolean)
-#ts-cc-check=1
 
 [oldrc] # Remote control interface
 
