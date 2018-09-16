@@ -108,6 +108,14 @@ function rules:init(args)
 				callback     = function() end, -- used to disable default callback
 			},
 		},
+		{ -- vlc console fix
+			rule = { class = "vlc", type = "utility" },
+			properties = {
+				floating = true,
+				border_width = 0,
+				callback     = function() end, -- used to disable default callback
+			},
+		},
 	}
 
 
