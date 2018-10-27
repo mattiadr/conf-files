@@ -1,14 +1,15 @@
 git
 #Alias
 gs		git status
+ga		git add
 gaa		git add --all
 gd		git diff
 gdh		git diff HEAD
 gc		git commit
 gcm		git commit -m
+glg		git log (graphical)
 gp		git push
 gl		git pull
 #Misc
-git lg					graphical log
 git log -p <file>		view file changes history
 git reset HEAD <file>	remove file from staging area

@@ -7,7 +7,7 @@ alias aliases="subl $ZSH_CONFIG/aliases"
 alias sudo="sudo "
 #eval $(thefuck --alias)
 
-#commands
+# commands
 alias ls="LC_ALL=C ls -p --color=auto --group-directories-first"
 alias lsa="ls -A"
 alias ll="ls -lh"
@@ -31,17 +31,19 @@ alias fgrep="fgrep --color=auto"
 alias rename="perl-rename"
 alias free="free -h"
 
-#git commands
+# git commands
 alias gs="git status"
+alias ga="git add"
 alias gaa="git add --all"
 alias gd="git diff"
 alias gdh="git diff HEAD"
 alias gc="git commit"
 alias gcm="git commit -m"
+alias glg="git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"
 alias gp="git push"
 alias gl="git pull"
 
-#sudo
+# sudo
 if [ $UID -ne 0 ]; then
 	alias shutdown="sudo shutdown"
 	alias poweroff="sudo poweroff"
