@@ -5,7 +5,6 @@ alias aliases="subl $ZSH_CONFIG/aliases"
 ###########
 
 alias sudo="sudo "
-#eval $(thefuck --alias)
 
 # commands
 alias ls="LC_ALL=C ls -p --color=auto --group-directories-first"
@@ -28,8 +27,11 @@ alias top="htop"
 alias grep="grep --color=auto"
 alias egrep="egrep --color=auto"
 alias fgrep="fgrep --color=auto"
+alias grepp="grep --color=auto -P"
 alias rename="perl-rename"
 alias free="free -h"
+alias chmod="chmod -v"
+alias chown="chown -v"
 
 # git commands
 alias gs="git status"
@@ -51,8 +53,6 @@ if [ $UID -ne 0 ]; then
 	alias reboot="sudo reboot"
 	alias mount="sudo mount"
 	alias umount="sudo umount"
-	alias chmod="sudo chmod -v"
-	alias chown="sudo chown -v"
 fi
 
 #############
@@ -66,14 +66,8 @@ function mkcd {
 	fi
 }
 
-function gcco {
-	filename=$(basename $1)
-	filename="${filename%.*}"
-	/bin/gcc -o $filename $1
-}
-
 function pacexpl {
-	out=$(comm -23 <(pacman -Qeq | sort) <(pacman -Qgq base base-devel | cut -d ' ' -f 2 | sort))
+	out=$(comm -23 <(pacman -Qenq | sort) <(pacman -Qgq base base-devel | cut -d ' ' -f 2 | sort))
 	if [ -t 1 ]; then
 		echo $out | column
 	else
