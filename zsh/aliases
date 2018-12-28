@@ -28,10 +28,12 @@ alias grep="grep --color=auto"
 alias egrep="egrep --color=auto"
 alias fgrep="fgrep --color=auto"
 alias grepp="grep --color=auto -P"
-alias rename="perl-rename -v"
+alias pgrep="pgrep -l"
+alias prn="perl-rename -v"
 alias free="free -h"
 alias chmod="chmod -v"
 alias chown="chown -v"
+alias diff="diff --color=auto"
 
 # git commands
 alias gs="git status"
