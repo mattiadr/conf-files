@@ -100,9 +100,10 @@ setopt prompt_subst
 #######
 
 local c_reset='%f%b'
-local c_pipe='%F{yellow}'
+local c_pipe='%B%F{yellow}'
 local c_red='%B%F{red}'
 local c_green='%B%F{green}'
+local c_folder='%B%F{blue}'
 
 if [[ $UID -eq 0 ]]; then
 	local c_primary=$c_red
@@ -112,7 +113,7 @@ else
 	local symbol=\$
 fi
 
-PS1="${c_pipe}[${c_reset} ${c_primary}%n${c_reset} ${c_pipe}|${c_reset} %~ ${c_pipe}]${c_primary}${symbol}${c_reset} "
+PS1="${c_pipe}[${c_reset} ${c_primary}%n${c_reset} ${c_pipe}|${c_reset} ${c_folder}%~${c_reset} ${c_pipe}]${c_primary}${symbol}${c_reset} "
 RPS1='${vcs_info_msg_0_}'
 
 PS2="${c_primary}>>${c_reset} "

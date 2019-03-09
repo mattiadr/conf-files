@@ -34,6 +34,7 @@ alias free="free -h"
 alias chmod="chmod -v"
 alias chown="chown -v"
 alias diff="diff --color=auto"
+alias clip="xclip -selection clipboard"
 
 # git commands
 alias gs="git status"
