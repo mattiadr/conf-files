@@ -10,6 +10,7 @@ cln() {
 #  | conf-files       | real file
 cln awesome            ~/.config/awesome
 cln cower              ~/.config/cower
+cln git/.gitconfig     ~/.gitconfig
 cln htop               ~/.config/htop
 cln nano/nanorc        /etc/nanorc
 cln pacman/mirrorlist  /etc/pacman.d/mirrorlist

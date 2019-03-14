@@ -1,0 +1,9 @@
+[user]
+	email = mattiadr96@gmail.com
+	name = Mattia De Rosa
+[credential "https://github.com"]
+	username = mattiadr
+[credential]
+	helper = cache --timeout=3600
+[core]
+	pager = less -+X
