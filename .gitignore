@@ -1,7 +1,9 @@
-sublime-text-3/Backup/
-sublime-text-3/Cache/
-sublime-text-3/Index/
-sublime-text-3/Lib/
-sublime-text-3/Local
-sublime-text-3/Packages
+# sublime-text-3
+sublime-text-3/*
+!sublime-text-3/Packages/
+sublime-text-3/Packages/*
+!sublime-text-3/Packages/User/
+sublime-text-3/Packages/User/*
+!sublime-text-3/Packages/User/*.sublime-settings
+# vlc
 vlc/vlc-qt-interface.conf

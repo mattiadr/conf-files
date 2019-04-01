@@ -1,0 +1,18 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"All Autocomplete",
+		"BracketHighlighter",
+		"Color Highlight",
+		"Color Highlighter",
+		"Dotfiles Syntax Highlighting",
+		"NASM x86 Assembly",
+		"Package Control",
+		"PackageResourceViewer",
+		"Seti_UI"
+	]
+}
