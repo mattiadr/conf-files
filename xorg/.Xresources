@@ -1,0 +1,26 @@
+st.font:          monospace:pixelsize=14:antialias=true:autohint=true
+st.color0:        black
+st.color1:        red3
+st.color2:        green3
+st.color3:        yellow3
+st.color4:        blue2
+st.color5:        magenta3
+st.color6:        cyan3
+st.color7:        gray90
+st.color8:        gray50
+st.color9:        red
+st.color10:       green
+st.color11:       yellow
+st.color12:       #5c5cff
+st.color13:       magenta
+st.color14:       cyan
+st.color15:       white
+st.foreground:    gray90
+st.background:    black
+st.cursor:        gray90
+st.reverseCursor: black
+st.termname:      st-256color
+st.tabspaces:     4
+
+Xcursor.theme: Breeze-Obsidian
+Xcursor.size:  18

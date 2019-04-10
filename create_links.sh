@@ -18,5 +18,7 @@ cln pacman/pacman.conf /etc/pacman.conf
 cln ranger             ~/.config/ranger
 cln sublime-text-3     ~/.config/sublime-text-3
 cln vlc                ~/.config/vlc
+cln xorg/.xinitrc      ~/.xinitrc
+cln xorg/.Xresources   ~/.Xresources
 cln zsh/zshenv         /etc/zsh/zshenv
 cln zsh/zshrc          /etc/zsh/zshrc
