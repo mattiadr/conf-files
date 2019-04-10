@@ -18,6 +18,7 @@ bindkey "^[[1;5A" history-beginning-search-backward # ctrl + up
 bindkey "^[[1;5B" history-beginning-search-forward  # ctrl + down
 bindkey "^[[1;5C" forward-word                      # ctrl + right
 bindkey "^[[1;5D" backward-word                     # ctrl + left
+bindkey "^H"      backward-kill-word                # ctrl + backspace
 
 # On an ambiguous completion, instead of listing possibilities or beeping,
 # insert the first match immediately.
