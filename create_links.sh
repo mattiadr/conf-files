@@ -20,5 +20,6 @@ cln sublime-text-3     ~/.config/sublime-text-3
 cln vlc                ~/.config/vlc
 cln xorg/.xinitrc      ~/.xinitrc
 cln xorg/.Xresources   ~/.Xresources
+cln zsh/.zprofile      ~/.zprofile
 cln zsh/zshenv         /etc/zsh/zshenv
 cln zsh/zshrc          /etc/zsh/zshrc
