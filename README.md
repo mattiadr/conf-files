@@ -10,3 +10,8 @@ Included configurations:
 - sublime-text-3
 - vlc
 - zsh
+
+## Branches info:
+- master: desktop configuration
+- laptop: laptop configuration
+- unclean: awesome config with additional stuff
