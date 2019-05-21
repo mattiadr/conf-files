@@ -1,0 +1,5 @@
+[
+	{ "keys": ["ctrl+b"], "command": "toggle_side_bar" },
+	{ "keys": ["ctrl+keypad_divide"], "command": "toggle_comment", "args": { "block": false } },
+	{ "keys": ["ctrl+shift+keypad_divide"], "command": "toggle_comment", "args": { "block": true } },
+]
