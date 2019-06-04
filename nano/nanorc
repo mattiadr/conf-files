@@ -1,3 +1,5 @@
+#!/hint/bash
+
 ## Sample initialization file for GNU nano.
 ##
 ## Please note that you must have configured nano with --enable-nanorc
