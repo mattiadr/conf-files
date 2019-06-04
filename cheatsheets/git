@@ -13,3 +13,4 @@ gl		git pull
 #Misc
 git log -p <file>		view file changes history
 git reset HEAD <file>	remove file from staging area
+git reset --soft HEAD~	revert latest commit
