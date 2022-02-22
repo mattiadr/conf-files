@@ -37,7 +37,6 @@ alias chmod="chmod -v"
 alias chown="chown -v"
 alias diff="diff --color=auto"
 alias clip="xclip -selection clipboard"
-alias yay="yay --builddir=/home/mattiadr/builds"
 
 # git commands
 alias gs="git status"
