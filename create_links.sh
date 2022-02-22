@@ -14,7 +14,6 @@ scln() {
 
 #    conf-files          | real file
 cln  awesome                ~/.config/awesome
-#cln  cower                  ~/.config/cower
 cln  git/.gitconfig         ~/.gitconfig
 cln  htop                   ~/.config/htop
 scln makepkg/makepkg.conf   /etc/makepkg.conf
@@ -27,6 +26,7 @@ cln  sublime-text-3         ~/.config/sublime-text-3
 cln  vlc                    ~/.config/vlc
 cln  xorg/.xinitrc          ~/.xinitrc
 cln  xorg/.Xresources       ~/.Xresources
+cln  yay                    ~/.config/yay
 cln  zsh/.zprofile          ~/.zprofile
 scln zsh/zshenv             /etc/zsh/zshenv
 scln zsh/zshrc              /etc/zsh/zshrc
