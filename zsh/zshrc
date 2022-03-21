@@ -1,10 +1,10 @@
-ZSH_CONFIG="/home/mattiadr/conf-files/zsh"
+ZSH_CONFIG="$HOME/conf-files/zsh"
 alias zshrc="subl $ZSH_CONFIG/zshrc"
 
 ##########
 # config #
 ##########
-fpath=(/home/mattiadr/conf-files/zsh/zsh_completions $fpath)
+fpath=($HOME/conf-files/zsh/zsh_completions $fpath)
 
 # keybinds
 bindkey -e
